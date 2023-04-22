@@ -1,0 +1,22 @@
+###### Components analysis for Application: Asus_Calculator_9.1.0.3 ######
+
+Found 2 exported components:
+Component:
+	Name: com.asus.calculator.quicksettings.EntryTileService
+	Type: S
+	Permission: android.permission.BIND_QUICK_SETTINGS_TILE
+	Intent Filters:
+
+Component:
+	Name: com.google.firebase.iid.FirebaseInstanceIdService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Asus_Calculator_9.1.0.3 ######
+
+Class EntryTileService.java: vulnerable (requires permission) (0ms)
+Class definition not found, exiting.
+Class FirebaseInstanceIdService.java: vulnerable (1ms)

@@ -1,0 +1,4 @@
+com.sec.android.app.sbrowser.beta
+com.sec.android.app.sbrowser.SBrowserMainActivity
+com.sec.android.app.sbrowser.custom_tab.CustomTabsConnectionService
+com.sec.android.app.sbrowser.sites.bookmark.wearable_sync.BookmarkWearableService

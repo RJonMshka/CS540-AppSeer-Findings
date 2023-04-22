@@ -1,0 +1,2 @@
+com.samsung.android.app.notes
+com.samsung.android.app.notes.memolist.MemoListActivity

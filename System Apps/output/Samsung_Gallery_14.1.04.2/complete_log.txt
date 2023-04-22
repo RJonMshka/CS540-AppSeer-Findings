@@ -1,0 +1,14 @@
+###### Components analysis for Application: Samsung_Gallery_14.1.04.2 ######
+
+Found 1 exported components:
+Component:
+	Name: com.samsung.android.gallery.module.idleworker.IdleWorker
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Samsung_Gallery_14.1.04.2 ######
+
+Class IdleWorker.java: vulnerable (requires permission) (5ms)

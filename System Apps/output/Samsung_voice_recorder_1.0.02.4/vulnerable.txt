@@ -1,0 +1,4 @@
+com.samsung.android.wear.voicerecorder
+com.samsung.android.wear.voicerecorder.view.MainActivity
+com.samsung.android.wear.voicerecorder.service.VRWearComplicationProviderService
+com.samsung.android.wear.voicerecorder.service.DataLayerListenerService

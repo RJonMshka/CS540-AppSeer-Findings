@@ -1,0 +1,3 @@
+com.sec.android.gallery3d
+com.samsung.android.gallery.app.activity.GalleryActivity
+com.samsung.android.gallery.module.idleworker.IdleWorker

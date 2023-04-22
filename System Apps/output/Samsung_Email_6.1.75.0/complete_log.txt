@@ -1,0 +1,119 @@
+###### Components analysis for Application: Samsung_Email_6.1.75.0 ######
+
+Found 16 exported components:
+Component:
+	Name: com.samsung.android.email.ui.service.PopImapAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.ui.service.EasAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.ui.service.LdapAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.composer.common.EmailChooserTargetService
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.provider.provider.attachment.AttachmentDownloadService
+	Type: S
+	Permission: com.samsung.android.email.permission.ACCESS_PROVIDER
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.sync.ldap.LDAPService
+	Type: S
+	Permission: com.samsung.android.email.permission.ACCESS_PROVIDER
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.provider.service.AccountCreationService
+	Type: S
+	Permission: com.sec.android.email.ACCOUNT_CREATION_PERMISSION
+	Intent Filters: none
+
+Component:
+	Name: com.samsung.android.email.sync.service.syncadapter.PopImapSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.sync.service.syncadapter.LDAPSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.sync.service.syncadapter.EmailSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.sync.service.syncadapter.ContactsSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.sync.service.syncadapter.CalendarSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.sync.service.syncadapter.TasksSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.email.sync.service.MailService
+	Type: S
+	Permission: com.samsung.android.email.permission.ACCESS_PROVIDER
+	Intent Filters: none
+
+Component:
+	Name: com.samsung.android.email.sync.service.EmailService
+	Type: S
+	Permission: com.samsung.android.email.permission.ACCESS_PROVIDER
+	Intent Filters: none
+
+Component:
+	Name: com.samsung.android.email.sync.common.fbe.service.FBEEmailService
+	Type: S
+	Permission: com.samsung.android.email.permission.ACCESS_PROVIDER
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Samsung_Email_6.1.75.0 ######
+
+Class PopImapAuthenticatorService.java: vulnerable (3ms)
+Class EasAuthenticatorService.java: vulnerable (2ms)
+Class LdapAuthenticatorService.java: vulnerable (2ms)
+Class EmailChooserTargetService.java: vulnerable (requires permission) (2ms)
+Class AttachmentDownloadService.java: vulnerable (requires permission) (7ms)
+Class LDAPService.java: vulnerable (requires permission) (6ms)
+Class AccountCreationService.java: vulnerable (requires permission) (4ms)
+Class PopImapSyncAdapterService.java: vulnerable (1ms)
+Class LDAPSyncAdapterService.java: vulnerable (0ms)
+Class EmailSyncAdapterService.java: vulnerable (1ms)
+Class ContactsSyncAdapterService.java: vulnerable (1ms)
+Class CalendarSyncAdapterService.java: vulnerable (1ms)
+Class TasksSyncAdapterService.java: vulnerable (2ms)
+Class MailService.java: vulnerable (requires permission) (3ms)
+Class EmailService.java: vulnerable (requires permission) (7ms)
+Class FBEEmailService.java: vulnerable (requires permission) (1ms)

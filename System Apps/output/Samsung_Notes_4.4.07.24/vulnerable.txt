@@ -1,0 +1,7 @@
+com.samsung.android.app.notes
+com.samsung.android.app.notes.memolist.MemoListActivity
+com.samsung.android.app.notes.popupnote.PopupNoteService
+com.samsung.android.app.notes.screenoffmemo.ScreenOffMemoService
+com.samsung.android.support.senl.nt.app.jobscheduler.NotesJobService
+com.samsung.android.support.senl.nt.app.quicknote.QuickNoteTileService
+com.google.android.gms.auth.api.signin.RevocationBoundService

@@ -1,0 +1,4 @@
+com.asus.calculator
+com.asus.calculator.Calculator
+com.asus.calculator.quicksettings.EntryTileService
+com.google.firebase.iid.FirebaseInstanceIdService

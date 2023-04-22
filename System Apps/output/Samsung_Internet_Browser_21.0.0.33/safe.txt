@@ -1,0 +1,2 @@
+com.sec.android.app.sbrowser.beta
+com.sec.android.app.sbrowser.SBrowserMainActivity

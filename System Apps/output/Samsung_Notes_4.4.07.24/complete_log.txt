@@ -1,0 +1,42 @@
+###### Components analysis for Application: Samsung_Notes_4.4.07.24 ######
+
+Found 5 exported components:
+Component:
+	Name: com.samsung.android.app.notes.popupnote.PopupNoteService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.samsung.android.app.notes.screenoffmemo.ScreenOffMemoService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.samsung.android.support.senl.nt.app.jobscheduler.NotesJobService
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.samsung.android.support.senl.nt.app.quicknote.QuickNoteTileService
+	Type: S
+	Permission: android.permission.BIND_QUICK_SETTINGS_TILE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Samsung_Notes_4.4.07.24 ######
+
+Class PopupNoteService.java: vulnerable (7ms)
+Class ScreenOffMemoService.java: vulnerable (3ms)
+Class NotesJobService.java: vulnerable (requires permission) (5ms)
+Class QuickNoteTileService.java: vulnerable (requires permission) (2ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

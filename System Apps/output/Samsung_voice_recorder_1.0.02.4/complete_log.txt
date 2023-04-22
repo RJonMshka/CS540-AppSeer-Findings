@@ -1,0 +1,21 @@
+###### Components analysis for Application: Samsung_voice_recorder_1.0.02.4 ######
+
+Found 2 exported components:
+Component:
+	Name: com.samsung.android.wear.voicerecorder.service.VRWearComplicationProviderService
+	Type: S
+	Permission: com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER
+	Intent Filters:
+
+Component:
+	Name: com.samsung.android.wear.voicerecorder.service.DataLayerListenerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Samsung_voice_recorder_1.0.02.4 ######
+
+Class VRWearComplicationProviderService.java: vulnerable (requires permission) (4ms)
+Class DataLayerListenerService.java: vulnerable (3ms)

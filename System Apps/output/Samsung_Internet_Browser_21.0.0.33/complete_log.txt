@@ -1,0 +1,21 @@
+###### Components analysis for Application: Samsung_Internet_Browser_21.0.0.33 ######
+
+Found 2 exported components:
+Component:
+	Name: com.sec.android.app.sbrowser.custom_tab.CustomTabsConnectionService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.sec.android.app.sbrowser.sites.bookmark.wearable_sync.BookmarkWearableService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Samsung_Internet_Browser_21.0.0.33 ######
+
+Class CustomTabsConnectionService.java: vulnerable (7ms)
+Class BookmarkWearableService.java: vulnerable (2ms)
