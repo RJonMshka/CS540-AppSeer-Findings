@@ -1,0 +1,3 @@
+com.facebook.orca
+com.facebook.orca.auth.StartScreenActivity
+com.facebook.messaging.phonebookintegration.account.MessengerAuthenticatorService

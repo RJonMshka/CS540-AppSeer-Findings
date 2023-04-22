@@ -1,0 +1,2 @@
+com.rfi.sams.android
+com.rfi.sams.android.main.SplashActivity

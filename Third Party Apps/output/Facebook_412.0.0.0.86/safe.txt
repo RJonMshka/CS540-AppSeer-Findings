@@ -1,0 +1,2 @@
+com.facebook.katana
+com.facebook.katana.LoginActivity

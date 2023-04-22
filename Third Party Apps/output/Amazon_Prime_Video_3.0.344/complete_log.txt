@@ -1,0 +1,28 @@
+###### Components analysis for Application: Amazon_Prime_Video_3.0.344 ######
+
+Found 3 exported components:
+Component:
+	Name: com.amazon.avod.voicecontrols.service.PrimeVideoMediaService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.amazon.identity.auth.accounts.MAPSubAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.amazon.avod.playbackclient.sdk.PlaybackSdkService
+	Type: S
+	Permission: com.amazon.avod.SDK_ACCESS
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Amazon_Prime_Video_3.0.344 ######
+
+Class PrimeVideoMediaService.java: vulnerable (0ms)
+Class MAPSubAuthenticatorService.java: vulnerable (3ms)
+Class PlaybackSdkService.java: vulnerable (requires permission) (8ms)

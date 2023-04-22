@@ -1,0 +1,7 @@
+com.enflick.android.TextNow
+authorization.ui.AuthorizationActivity
+com.enflick.android.TextNow.HeadlessSmsSendService
+org.jitsi.meet.sdk.ConnectionService
+com.enflick.android.TextNow.sync.TNAuthenticatorService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+androidx.sharetarget.ChooserTargetServiceCompat

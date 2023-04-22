@@ -1,0 +1,5 @@
+com.amazon.avod.thirdpartyclient
+com.amazon.avod.thirdpartyclient.LauncherActivity
+com.amazon.avod.voicecontrols.service.PrimeVideoMediaService
+com.amazon.identity.auth.accounts.MAPSubAuthenticatorService
+com.amazon.avod.playbackclient.sdk.PlaybackSdkService

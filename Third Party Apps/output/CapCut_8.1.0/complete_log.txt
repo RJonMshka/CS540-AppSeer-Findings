@@ -1,0 +1,28 @@
+###### Components analysis for Application: CapCut_8.1.0 ######
+
+Found 3 exported components:
+Component:
+	Name: com.ss.android.message.NotifyService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.ss.android.newmedia.redbadge.RedbadgeHandler
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: CapCut_8.1.0 ######
+
+Class NotifyService.java: vulnerable (3ms)
+Class RedbadgeHandler.java: vulnerable (1ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

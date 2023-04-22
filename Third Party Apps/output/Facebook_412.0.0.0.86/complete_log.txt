@@ -1,0 +1,14 @@
+###### Components analysis for Application: Facebook_412.0.0.0.86 ######
+
+Found 1 exported components:
+Component:
+	Name: com.facebook.katana.platform.FacebookAuthenticationService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Facebook_412.0.0.0.86 ######
+
+Class FacebookAuthenticationService.java: vulnerable (3ms)

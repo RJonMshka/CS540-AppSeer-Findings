@@ -1,0 +1,3 @@
+com.rfi.sams.android
+com.rfi.sams.android.main.SplashActivity
+com.google.android.gms.auth.api.signin.RevocationBoundService

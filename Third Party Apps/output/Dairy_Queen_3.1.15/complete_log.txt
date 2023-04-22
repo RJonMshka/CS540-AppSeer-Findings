@@ -1,0 +1,14 @@
+###### Components analysis for Application: Dairy_Queen_3.1.15 ######
+
+Found 1 exported components:
+Component:
+	Name: io.radar.sdk.RadarJobScheduler
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Dairy_Queen_3.1.15 ######
+
+Class RadarJobScheduler.java: vulnerable (requires permission) (0ms)

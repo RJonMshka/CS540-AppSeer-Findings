@@ -1,0 +1,14 @@
+###### Components analysis for Application: Facebook_messenger_404.0.0.14.115 ######
+
+Found 1 exported components:
+Component:
+	Name: com.facebook.messaging.phonebookintegration.account.MessengerAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Facebook_messenger_404.0.0.14.115 ######
+
+Class MessengerAuthenticatorService.java: vulnerable (3ms)

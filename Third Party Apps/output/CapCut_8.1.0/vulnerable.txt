@@ -1,0 +1,5 @@
+com.lemon.lvoverseas
+com.vega.main.MainActivity
+com.ss.android.message.NotifyService
+com.ss.android.newmedia.redbadge.RedbadgeHandler
+com.google.android.gms.auth.api.signin.RevocationBoundService

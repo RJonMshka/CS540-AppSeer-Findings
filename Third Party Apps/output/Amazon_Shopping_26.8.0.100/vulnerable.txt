@@ -1,0 +1,8 @@
+com.amazon.mShop.android.shopping
+com.amazon.windowshop.home.HomeLauncherActivity
+com.burnweb.rnsendintent.RNSendIntentModule
+com.amazon.mShop.kuber.service.PrefetchService
+com.amazon.alexa.system.UserInactivityAuthority.UserInactivityReportingJob
+com.amazon.identity.auth.device.authorization.AmazonAuthorizationService1stParty
+com.amazon.client.metrics.nexus.UploadJobService
+com.google.android.gms.auth.api.signin.RevocationBoundService

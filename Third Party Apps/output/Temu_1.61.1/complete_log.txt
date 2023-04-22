@@ -1,0 +1,35 @@
+###### Components analysis for Application: Temu_1.61.1 ######
+
+Found 4 exported components:
+Component:
+	Name: com.einnovation.temu.service.farseer.LifeCycleJobService
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.einnovation.temu.service.tide.UserAuthService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.einnovation.temu.service.tide.UserModuleService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Temu_1.61.1 ######
+
+Class LifeCycleJobService.java: vulnerable (requires permission) (3ms)
+Class UserAuthService.java: vulnerable (3ms)
+Class UserModuleService.java: vulnerable (1ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

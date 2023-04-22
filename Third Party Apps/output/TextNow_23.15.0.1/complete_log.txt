@@ -1,0 +1,43 @@
+###### Components analysis for Application: TextNow_23.15.0.1 ######
+
+Found 5 exported components:
+Component:
+	Name: com.enflick.android.TextNow.HeadlessSmsSendService
+	Type: S
+	Permission: android.permission.SEND_RESPOND_VIA_MESSAGE
+	Intent Filters:
+
+Component:
+	Name: org.jitsi.meet.sdk.ConnectionService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.enflick.android.TextNow.sync.TNAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: androidx.sharetarget.ChooserTargetServiceCompat
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: TextNow_23.15.0.1 ######
+
+Class HeadlessSmsSendService.java: vulnerable (requires permission) (5ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/TextNow_23.15.0.1/sources/org/jitsi/meet/sdk/ConnectionService.java (No such file or directory) - aborting
+Class ConnectionService.java: vulnerable (0ms)
+Class TNAuthenticatorService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class ChooserTargetServiceCompat.java: vulnerable (requires permission) (2ms)
