@@ -1,0 +1,1040 @@
+com.google.android.gms.ads.AdRequestBrokerService
+--------- beginning of crash
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: Process: com.google.android.gms, PID: 7582
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{3205285 u0 com.google.android.gms/.ads.AdRequestBrokerService}
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:02:34.471  7582  7582 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.ads.cache.CacheBrokerService
+--------- beginning of crash
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: Process: com.google.android.gms, PID: 16548
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{c2e8c45 u0 com.google.android.gms/.ads.cache.CacheBrokerService}
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:02:54.678 16548 16548 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.ads.identifier.service.AdvertisingIdService
+com.google.android.gms.ads.measurement.GmpConversionTrackingBrokerService
+--------- beginning of crash
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: Process: com.google.android.gms, PID: 16630
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{c73fa75 u0 com.google.android.gms/.ads.measurement.GmpConversionTrackingBrokerService}
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:03:35.115 16630 16630 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.analytics.service.AnalyticsService
+--------- beginning of crash
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: Process: com.google.android.gms, PID: 16756
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{d09f5e4 u0 com.google.android.gms/.ads.identifier.service.AdvertisingIdService}
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:04:05.157 16756 16756 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.appinvite.service.AppInviteService
+--------- beginning of crash
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: Process: com.google.android.gms, PID: 16863
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{26ac300 u0 com.google.android.gms/.appinvite.service.AppInviteService}
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:04:15.723 16863 16863 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.appstate.service.AppStateAndroidService
+--------- beginning of crash
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: Process: com.google.android.gms, PID: 16941
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{a82da7 u0 com.google.android.gms/.appstate.service.AppStateAndroidService}
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:04:36.003 16941 16941 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.auth.GetToken
+--------- beginning of crash
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: Process: com.google.android.gms, PID: 17028
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{9f1627 u0 com.google.android.gms/.analytics.service.AnalyticsService}
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:05:06.366 17028 17028 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.auth.account.authenticator.DefaultAuthDelegateService
+--------- beginning of crash
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 1225
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{2a36b6f u0 com.google.android.gms/.auth.GetToken}
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:05:26.811  1225  1225 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.auth.account.be.accountstate.AccountStateSyncService
+com.google.android.gms.auth.account.be.accountstate.CredentialStateSyncService
+com.google.android.gms.auth.account.be.legacy.GoogleAccountDataService
+--------- beginning of crash
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 17481
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{e197556 u0 com.google.android.gms/.auth.account.be.accountstate.AccountStateSyncService}
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:06:27.009 17481 17481 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.auth.be.appcert.AppCertService
+com.google.android.gms.auth.frp.FrpService
+com.google.android.gms.auth.setup.devicesignals.DeviceSignalsService
+--------- beginning of crash
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 17870
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{300fcac u0 com.google.android.gms/.auth.be.appcert.AppCertService}
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:07:27.172 17870 17870 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.auth.api.proxy.AuthService
+--------- beginning of crash
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: Process: com.google.android.gms, PID: 17126
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{3721933 u0 com.google.android.gms/.auth.api.proxy.AuthService}
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:07:39.155 17126 17126 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.backup.BackupAccountManagerService
+com.google.android.gms.backup.SetBackupAccountService
+--------- beginning of crash
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: Process: com.google.android.gms, PID: 18359
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{e2ce067 u0 com.google.android.gms/.backup.SetBackupAccountService}
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:08:19.575 18359 18359 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.backup.component.GmsBackupSchedulerService
+--------- beginning of crash
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: Process: com.google.android.gms, PID: 18681
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{f914c38 u0 com.google.android.gms/.backup.BackupAccountManagerService}
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:08:50.661 18681 18681 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.gcm.nts.SchedulerService
+com.google.android.gms.car.CarService
+--------- beginning of crash
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: Process: com.google.android.gms, PID: 19024
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{cd9a1e5 u0 com.google.android.gms/.backup.component.GmsBackupSchedulerService}
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:09:20.762 19024 19024 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.carsetup.wifi.CarWifiConnectionService
+com.google.android.gms.cast.media.CastRemoteDisplayProviderService
+com.google.android.gms.checkin.CheckinService
+--------- beginning of crash
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: Process: com.google.android.gms, PID: 19182
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{880f62 u0 com.google.android.gms/.checkin.CheckinService}
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:10:20.689 19182 19182 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.checkin.CheckinApiService
+com.google.android.gms.chromesync.sync.SyncService
+com.google.android.gms.config.ConfigService
+--------- beginning of crash
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 19250
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{bfd9711 u0 com.google.android.gms/.config.ConfigService}
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:11:21.906 19250 19250 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.common.stats.GmsCoreStatsService
+--------- beginning of crash
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: Process: com.google.android.gms, PID: 20118
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{bce428e u0 com.google.android.gms/.chromesync.sync.SyncService}
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:11:53.185 20118 20118 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.drive.metadata.sync.syncadapter.SyncAdapterService
+--------- beginning of crash
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 20095
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{ff4c622 u0 com.google.android.gms/.common.stats.GmsCoreStatsService}
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:12:12.006 20095 20095 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.droidguard.DroidGuardService
+--------- beginning of crash
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: Process: com.google.android.gms.unstable, PID: 6415
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{532e6fb u0 com.google.android.gms/.droidguard.DroidGuardService}
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:12:22.413  6415  6415 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.feedback.LegacyBugReportService
+com.google.android.gms.fido.u2f.U2fService
+--------- beginning of crash
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: Process: com.google.android.gms, PID: 20667
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{2aa90ff u0 com.google.android.gms/.fido.u2f.U2fService}
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:13:03.068 20667 20667 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.firebase.auth.api.gms.service.FirebaseAuthService
+--------- beginning of crash
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: Process: com.google.android.gms, PID: 20837
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{a8f5903 u0 com.google.android.gms/com.google.firebase.auth.api.gms.service.FirebaseAuthService}
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:13:23.361 20837 20837 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.fitness.service.proxy.FitProxyBroker
+com.google.android.gms.fitness.service.recording.FitRecordingBroker
+--------- beginning of crash
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 20478
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{676ff71 u0 com.google.android.gms/.fitness.service.proxy.FitProxyBroker}
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:14:13.687 20478 20478 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.fitness.service.sessions.FitSessionsBroker
+com.google.android.gms.fitness.service.history.FitHistoryBroker
+com.google.android.gms.fitness.service.goals.FitGoalsBroker
+--------- beginning of crash
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 21173
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{6994cc9 u0 com.google.android.gms/.fitness.service.history.FitHistoryBroker}
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:15:14.394 21173 21173 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.fitness.cache.DataUpdateListenerCacheService
+--------- beginning of crash
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 21438
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{8ab50c2 u0 com.google.android.gms/.fitness.cache.DataUpdateListenerCacheService}
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:15:25.031 21438 21438 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.fitness.service.sensors.FitSensorsBroker
+--------- beginning of crash
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 21589
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{a2c3e8a u0 com.google.android.gms/.fitness.service.goals.FitGoalsBroker}
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:15:55.168 21589 21589 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.fitness.service.ble.FitBleBroker
+com.google.android.gms.fitness.service.config.FitConfigBroker
+--------- beginning of crash
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 21822
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{9989602 u0 com.google.android.gms/.fitness.service.ble.FitBleBroker}
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:16:35.791 21822 21822 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.fitness.service.internal.FitInternalBroker
+com.google.android.gms.fitness.sync.FitnessSyncAdapterService
+com.google.android.gms.fitness.wearables.WearableSyncService
+--------- beginning of crash
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 22189
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{bd14f34 u0 com.google.android.gms/.fitness.wearables.WearableSyncService}
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:17:27.005 22189 22189 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.fitness.service.wearable.WearableSyncMessageService
+--------- beginning of crash
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 22364
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{fb91ed5 u0 com.google.android.gms/.fitness.service.internal.FitInternalBroker}
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:17:57.060 22364 22364 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.fitness.service.wearable.WearableSyncAccountService
+com.google.android.gms.fitness.service.wearable.WearableSyncConnectionService
+com.google.android.gms.fitness.service.wearable.WearableSyncConfigService
+--------- beginning of crash
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 22756
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{46c9b94 u0 com.google.android.gms/.fitness.service.wearable.WearableSyncAccountService}
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:18:57.308 22756 22756 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.games.chimera.GamesAndroidServiceProxy
+com.google.android.gms.games.chimera.GamesSignInServiceProxy
+--------- beginning of crash
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: Process: com.google.android.gms, PID: 20948
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{c21433 u0 com.google.android.gms/.games.chimera.GamesAndroidServiceProxy}
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:19:38.454 20948 20948 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.games.chimera.GamesSyncServiceNotificationProxy
+--------- beginning of crash
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: Process: com.google.android.gms, PID: 23263
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{40088e u0 com.google.android.gms/.games.chimera.GamesSyncServiceNotificationProxy}
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:19:49.064 23263 23263 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.gass.GassService
+com.google.android.gms.gcm.PushMessagingRegistrarProxy
+--------- beginning of crash
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 23118
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{e5e5dc3 u0 com.google.android.gms/.gcm.PushMessagingRegistrarProxy}
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:20:29.479 23118 23118 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.gcm.GcmService
+--------- beginning of crash
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: Process: com.google.android.gms, PID: 23455
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{547cd7c u0 com.google.android.gms/.gass.GassService}
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:20:54.340 23455 23455 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.gcm.http.GoogleHttpService
+--------- beginning of crash
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 23520
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{7bf131f u0 com.google.android.gms/.gcm.GcmService}
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:21:19.870 23520 23520 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.googlehelp.service.GoogleHelpService
+--------- beginning of crash
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: Process: com.google.android.gms.ui, PID: 23977
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{51a86b0 u0 com.google.android.gms/.googlehelp.service.GoogleHelpService}
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:21:30.823 23977 23977 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.icing.service.IndexService
+com.google.android.gms.icing.service.AppIndexingService
+com.google.android.gms.instantapps.service.InstantAppsService
+com.google.android.gms.kids.chimera.KidsServiceProxy
+--------- beginning of crash
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: Process: com.google.android.gms, PID: 24255
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{b0a355c u0 com.google.android.gms/.kids.chimera.KidsServiceProxy}
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:22:51.386 24255 24255 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.kids.JobService
+--------- beginning of crash
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: Process: com.google.android.gms, PID: 24327
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{c95701c u0 com.google.android.gms/.kids.JobService}
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:23:11.579 24327 24327 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.location.fused.wearable.GmsWearableListenerService
+com.google.android.location.network.NetworkLocationService
+--------- beginning of crash
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 24395
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{92747ff u0 com.google.android.gms/com.google.android.location.fused.wearable.GmsWearableListenerService}
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:24:01.774 24395 24395 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.location.internal.GoogleLocationManagerService
+com.google.android.location.reporting.service.ReportingAndroidService
+com.google.android.location.wearable.WearableLocationService
+com.google.android.gms.locationsharing.service.LocationSharingService
+--------- beginning of crash
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: Process: com.google.android.gms, PID: 25176
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{6476fe7 u0 com.google.android.gms/.locationsharing.service.LocationSharingService}
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:25:13.095 25176 25176 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.lockbox.service.LockboxBrokerService
+com.google.android.gms.maps.auth.ApiTokenService
+--------- beginning of crash
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 25120
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{bd6f1d9 u0 com.google.android.gms/.lockbox.service.LockboxBrokerService}
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:26:03.307 25120 25120 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.maps.service.HttpProxyService
+--------- beginning of crash
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: Process: com.google.android.gms, PID: 25304
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{acb0349 u0 com.google.android.gms/.maps.auth.ApiTokenService}
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:26:23.492 25304 25304 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.matchstick.contacts.reachability.ReachabilityService
+com.google.android.gms.measurement.service.MeasurementBrokerService
+--------- beginning of crash
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: Process: com.google.android.gms, PID: 25629
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{83fa750 u0 com.google.android.gms/.measurement.service.MeasurementBrokerService}
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:26:54.199 25629 25629 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.audiomodem.service.AudioModemService
+--------- beginning of crash
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: Process: com.google.android.gms, PID: 25743
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{23507c7 u0 com.google.android.gms/.maps.service.HttpProxyService}
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:27:24.237 25743 25743 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.nearby.bootstrap.service.NearbyBootstrapService
+com.google.android.gms.nearby.connection.service.NearbyConnectionsAndroidService
+--------- beginning of crash
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 25449
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{600c41d u0 com.google.android.gms/.nearby.bootstrap.service.NearbyBootstrapService}
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:28:04.767 25449 25449 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.location.nearby.direct.service.NearbyDirectService
+com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
+com.google.android.gms.nearby.messages.service.NearbyMessagesService
+--------- beginning of crash
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 25969
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{a19f18 u0 com.google.android.gms/.nearby.mediums.nearfieldcommunication.NfcAdvertisingService}
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:29:05.646 25969 25969 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.nearby.messages.debug.DebugPokeService
+com.google.android.gms.nearby.sharing.SharingTileService
+--------- beginning of crash
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 26290
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{3c821c6 u0 com.google.android.gms/.nearby.messages.debug.DebugPokeService}
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:29:46.079 26290 26290 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.update.SystemUpdateService
+--------- beginning of crash
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: Process: com.google.android.gms, PID: 26343
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{d6be871 u0 com.google.android.gms/.update.SystemUpdateService}
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:29:56.444 26343 26343 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.people.sync.PeopleSyncService
+--------- beginning of crash
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: Process: com.google.android.gms, PID: 26705
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{4c2a5d3 u0 com.google.android.gms/.nearby.sharing.SharingTileService}
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:30:26.513 26705 26705 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.people.sync.focus.delegation.ContactsSyncDelegateService
+--------- beginning of crash
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: Process: com.google.android.gms, PID: 26808
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{c093ee0 u0 com.google.android.gms/.people.sync.focus.delegation.ContactsSyncDelegateService}
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:30:36.883 26808 26808 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.plus.service.PlusService
+--------- beginning of crash
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: Process: com.google.android.gms, PID: 26887
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{bb2e81c u0 com.google.android.gms/.people.sync.PeopleSyncService}
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:31:06.999 26887 26887 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.plus.service.OfflineActionSyncAdapterService
+com.google.android.gms.reminders.sync.RemindersSyncService
+com.google.android.gms.security.verifier.ApkUploadService
+--------- beginning of crash
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: Process: com.google.android.gms, PID: 27098
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{def5f68 u0 com.google.android.gms/.security.verifier.ApkUploadService}
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:31:57.881 27098 27098 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.mdm.services.DeviceManagerApiService
+--------- beginning of crash
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: Process: com.google.android.gms, PID: 27195
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{5b7bed9 u0 com.google.android.gms/.reminders.sync.RemindersSyncService}
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:32:27.929 27195 27195 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.smartdevice.setup.accounts.AccountsService
+com.google.android.gms.subscribedfeeds.SyncService
+com.google.android.gms.subscribedfeeds.GmsFeedsSyncService
+--------- beginning of crash
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: Process: com.google.android.gms, PID: 27404
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{9a7939 u0 com.google.android.gms/.smartdevice.setup.accounts.AccountsService}
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:33:28.071 27404 27404 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.tapandpay.hce.service.TpHceService
+com.google.android.gms.auth.trustagent.GoogleTrustAgent
+--------- beginning of crash
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: Process: com.google.android.gms, PID: 27514
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{f3879c6 u0 com.google.android.gms/.subscribedfeeds.GmsFeedsSyncService}
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:33:59.181 27514 27514 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.wallet.service.PaymentService
+--------- beginning of crash
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: Process: com.google.android.gms, PID: 27640
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{9208919 u0 com.google.android.gms/.wallet.service.PaymentService}
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:34:19.504 27640 27640 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.wallet.service.address.AddressService
+com.google.android.gms.wearable.service.WearableService
+--------- beginning of crash
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: Process: com.google.android.gms.persistent, PID: 27944
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{5e71663 u0 com.google.android.gms/.wearable.service.WearableService}
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:35:00.278 27944 27944 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.chimera.container.ExternalFileApkService
+--------- beginning of crash
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: Process: com.google.android.gms, PID: 28262
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{be47c6c u0 com.google.android.gms/.chimera.container.ExternalFileApkService}
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:35:20.602 28262 28262 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.chimera.GmsApiService
+--------- beginning of crash
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: Process: com.google.android.gms, PID: 28344
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{3450856 u0 com.google.android.gms/.chimera.GmsApiService}
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:35:40.899 28344 28344 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.chimera.GmsApiServiceNoInstantApps
+--------- beginning of crash
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: Process: com.google.android.gms, PID: 28431
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{ff1e23e u0 com.google.android.gms/.chimera.GmsApiServiceNoInstantApps}
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:36:01.270 28431 28431 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.chimera.PersistentApiService
+com.google.android.gms.chimera.PersistentApiServiceNoInstantApps
+com.google.android.gms.chimera.PersistentDirectBootAwareApiService
+com.google.android.gms.chimera.UiApiServiceNoInstantApps
+--------- beginning of crash
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: Process: com.google.android.gms.ui, PID: 28906
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{12ea05b u0 com.google.android.gms/.chimera.UiApiServiceNoInstantApps}
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:37:22.252 28906 28906 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.chimera.GmsBoundBrokerService
+com.google.android.gms.chimera.PersistentBoundBrokerService
+com.google.android.gms.chimera.CarBoundBrokerService
+--------- beginning of crash
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: Process: com.google.android.gms:car, PID: 29125
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{5ddf4de u0 com.google.android.gms/.chimera.CarBoundBrokerService}
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:38:22.787 29125 29125 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.google.android.gms.nearby.exposurenotification.WakeUpService
+--------- beginning of crash
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: FATAL EXCEPTION: main
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: Process: com.google.android.gms, PID: 29171
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{bf30461 u0 com.google.android.gms/.auth.api.signin.RevocationBoundService}
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-22 16:39:12.923 29171 29171 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+org.chromium.customtabsclient.shared.KeepAliveService

@@ -1,0 +1,21 @@
+###### Components analysis for Application: Google_Contacts_3.68.0.445910596 ######
+
+Found 2 exported components:
+Component:
+	Name: com.google.android.apps.contacts.assistant.SuggestionsService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Google_Contacts_3.68.0.445910596 ######
+
+Class SuggestionsService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

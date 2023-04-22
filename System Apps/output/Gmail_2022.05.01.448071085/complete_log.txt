@@ -1,0 +1,84 @@
+###### Components analysis for Application: Gmail_2022.05.01.448071085 ######
+
+Found 11 exported components:
+Component:
+	Name: com.google.android.gm.provider.MailSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.android.email.service.ImapPurgeService
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.android.email.service.Pop3AuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gm.provider.GmailPop3SyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gm.provider.GmailImapSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.android.email.service.PolicyService
+	Type: S
+	Permission: com.google.android.gm.email.permission.ACCESS_PROVIDER
+	Intent Filters:
+
+Component:
+	Name: com.android.email.service.AccountService
+	Type: S
+	Permission: com.google.android.gm.email.permission.ACCESS_PROVIDER
+	Intent Filters:
+
+Component:
+	Name: com.android.email.service.ImapService
+	Type: S
+	Permission: com.google.android.gm.email.permission.ACCESS_PROVIDER
+	Intent Filters:
+
+Component:
+	Name: com.android.email.service.Pop3Service
+	Type: S
+	Permission: com.google.android.gm.email.permission.ACCESS_PROVIDER
+	Intent Filters:
+
+Component:
+	Name: com.android.email.service.EasAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Gmail_2022.05.01.448071085 ######
+
+Class MailSyncAdapterService.java: vulnerable (2ms)
+Class ImapPurgeService.java: vulnerable (requires permission) (3ms)
+Class Pop3AuthenticatorService.java: vulnerable (0ms)
+Class GmailPop3SyncAdapterService.java: vulnerable (0ms)
+Class GmailImapSyncAdapterService.java: vulnerable (0ms)
+Class PolicyService.java: vulnerable (requires permission) (0ms)
+Class AccountService.java: vulnerable (requires permission) (0ms)
+Class ImapService.java: vulnerable (requires permission) (3ms)
+Class Pop3Service.java: vulnerable (requires permission) (3ms)
+Class EasAuthenticatorService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

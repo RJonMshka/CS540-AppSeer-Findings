@@ -1,0 +1,5 @@
+com.google.android.calendar
+com.android.calendar.AllInOneActivity
+com.google.android.calendar.timely.CalendarOobeService
+com.google.android.calendar.alerts.RemindersListenerService
+com.google.assistant.appactions.widgets.pinappwidget.PinAppWidgetService

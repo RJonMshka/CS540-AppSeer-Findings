@@ -1,0 +1,4 @@
+com.google.android.contacts
+com.android.contacts.activities.PeopleActivity
+com.google.android.apps.contacts.assistant.SuggestionsService
+com.google.android.gms.auth.api.signin.RevocationBoundService

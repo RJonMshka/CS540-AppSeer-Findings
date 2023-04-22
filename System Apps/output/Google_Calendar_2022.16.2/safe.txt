@@ -1,0 +1,2 @@
+com.google.android.calendar
+com.android.calendar.AllInOneActivity

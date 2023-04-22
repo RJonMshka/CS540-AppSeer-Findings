@@ -1,0 +1,876 @@
+###### Components analysis for Application: Google_play_service_22.50.14 ######
+
+Found 110 exported components:
+Component:
+	Name: com.google.android.gms.ads.AdRequestBrokerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.ads.cache.CacheBrokerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.ads.identifier.service.AdvertisingIdService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.ads.measurement.GmpConversionTrackingBrokerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.analytics.service.AnalyticsService
+	Type: S
+	Permission: android.permission.INTERNET
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.appinvite.service.AppInviteService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.appstate.service.AppStateAndroidService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.GetToken
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.account.authenticator.DefaultAuthDelegateService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.account.be.accountstate.AccountStateSyncService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.account.be.accountstate.CredentialStateSyncService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.account.be.legacy.GoogleAccountDataService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.be.appcert.AppCertService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.frp.FrpService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.setup.devicesignals.DeviceSignalsService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.api.proxy.AuthService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.backup.BackupAccountManagerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.backup.SetBackupAccountService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.backup.component.GmsBackupSchedulerService
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.gcm.nts.SchedulerService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.car.CarService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.carsetup.wifi.CarWifiConnectionService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.cast.media.CastRemoteDisplayProviderService
+	Type: S
+	Permission: android.permission.BIND_REMOTE_DISPLAY
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.checkin.CheckinService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.checkin.CheckinApiService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chromesync.sync.SyncService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.config.ConfigService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.common.stats.GmsCoreStatsService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.drive.metadata.sync.syncadapter.SyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.droidguard.DroidGuardService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.feedback.LegacyBugReportService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fido.u2f.U2fService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.firebase.auth.api.gms.service.FirebaseAuthService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.proxy.FitProxyBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.recording.FitRecordingBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.sessions.FitSessionsBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.history.FitHistoryBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.goals.FitGoalsBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.cache.DataUpdateListenerCacheService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.sensors.FitSensorsBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.ble.FitBleBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.config.FitConfigBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.internal.FitInternalBroker
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.sync.FitnessSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.wearables.WearableSyncService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.wearable.WearableSyncMessageService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.wearable.WearableSyncAccountService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.wearable.WearableSyncConnectionService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.fitness.service.wearable.WearableSyncConfigService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.games.chimera.GamesAndroidServiceProxy
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.games.chimera.GamesSignInServiceProxy
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.games.chimera.GamesSyncServiceNotificationProxy
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.gass.GassService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.gcm.PushMessagingRegistrarProxy
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.gcm.GcmService
+	Type: S
+	Permission: com.google.android.gtalkservice.permission.GTALK_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.gcm.http.GoogleHttpService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.googlehelp.service.GoogleHelpService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.icing.service.IndexService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.icing.service.AppIndexingService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.instantapps.service.InstantAppsService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.kids.chimera.KidsServiceProxy
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.kids.JobService
+	Type: S
+	Permission: com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.location.fused.wearable.GmsWearableListenerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.location.network.NetworkLocationService
+	Type: S
+	Permission: android.permission.WRITE_SECURE_SETTINGS
+	Intent Filters:
+
+Component:
+	Name: com.google.android.location.internal.GoogleLocationManagerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.location.reporting.service.ReportingAndroidService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.location.wearable.WearableLocationService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.locationsharing.service.LocationSharingService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.lockbox.service.LockboxBrokerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.maps.auth.ApiTokenService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.maps.service.HttpProxyService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.matchstick.contacts.reachability.ReachabilityService
+	Type: S
+	Permission: android.permission.READ_CONTACTS
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.measurement.service.MeasurementBrokerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.audiomodem.service.AudioModemService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.nearby.bootstrap.service.NearbyBootstrapService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.nearby.connection.service.NearbyConnectionsAndroidService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.location.nearby.direct.service.NearbyDirectService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
+	Type: S
+	Permission: android.permission.BIND_NFC_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.nearby.messages.service.NearbyMessagesService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.nearby.messages.debug.DebugPokeService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.nearby.sharing.SharingTileService
+	Type: S
+	Permission: android.permission.BIND_QUICK_SETTINGS_TILE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.update.SystemUpdateService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.people.sync.PeopleSyncService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.people.sync.focus.delegation.ContactsSyncDelegateService
+	Type: S
+	Permission: com.google.android.gms.permission.CONTACTS_SYNC_DELEGATION
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.plus.service.PlusService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.plus.service.OfflineActionSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.reminders.sync.RemindersSyncService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.security.verifier.ApkUploadService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.mdm.services.DeviceManagerApiService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.smartdevice.setup.accounts.AccountsService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.subscribedfeeds.SyncService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.subscribedfeeds.GmsFeedsSyncService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.tapandpay.hce.service.TpHceService
+	Type: S
+	Permission: android.permission.BIND_NFC_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.trustagent.GoogleTrustAgent
+	Type: S
+	Permission: android.permission.BIND_TRUST_AGENT
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.wallet.service.PaymentService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.wallet.service.address.AddressService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.wearable.service.WearableService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.container.ExternalFileApkService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.GmsApiService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.GmsApiServiceNoInstantApps
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.PersistentApiService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.PersistentApiServiceNoInstantApps
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.PersistentDirectBootAwareApiService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.UiApiServiceNoInstantApps
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.GmsBoundBrokerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.PersistentBoundBrokerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.chimera.CarBoundBrokerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.nearby.exposurenotification.WakeUpService
+	Type: S
+	Permission: com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK
+	Intent Filters: none
+
+Component:
+	Name: org.chromium.customtabsclient.shared.KeepAliveService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Google_play_service_22.50.14 ######
+
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/ads/AdRequestBrokerService.java (No such file or directory) - aborting
+Class AdRequestBrokerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/ads/cache/CacheBrokerService.java (No such file or directory) - aborting
+Class CacheBrokerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/ads/identifier/service/AdvertisingIdService.java (No such file or directory) - aborting
+Class AdvertisingIdService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/ads/measurement/GmpConversionTrackingBrokerService.java (No such file or directory) - aborting
+Class GmpConversionTrackingBrokerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/analytics/service/AnalyticsService.java (No such file or directory) - aborting
+Class AnalyticsService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/appinvite/service/AppInviteService.java (No such file or directory) - aborting
+Class AppInviteService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/appstate/service/AppStateAndroidService.java (No such file or directory) - aborting
+Class AppStateAndroidService.java: vulnerable (0ms)
+Class GetToken.java: vulnerable (0ms)
+Class DefaultAuthDelegateService.java: vulnerable (0ms)
+Class AccountStateSyncService.java: vulnerable (0ms)
+Class CredentialStateSyncService.java: vulnerable (0ms)
+Class GoogleAccountDataService.java: vulnerable (0ms)
+Class AppCertService.java: vulnerable (0ms)
+Class FrpService.java: vulnerable (0ms)
+Class DeviceSignalsService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/auth/api/proxy/AuthService.java (No such file or directory) - aborting
+Class AuthService.java: vulnerable (0ms)
+Class BackupAccountManagerService.java: vulnerable (0ms)
+Class SetBackupAccountService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/backup/component/GmsBackupSchedulerService.java (No such file or directory) - aborting
+Class GmsBackupSchedulerService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/gcm/nts/SchedulerService.java (No such file or directory) - aborting
+Class SchedulerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/car/CarService.java (No such file or directory) - aborting
+Class CarService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/carsetup/wifi/CarWifiConnectionService.java (No such file or directory) - aborting
+Class CarWifiConnectionService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/cast/media/CastRemoteDisplayProviderService.java (No such file or directory) - aborting
+Class CastRemoteDisplayProviderService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/checkin/CheckinService.java (No such file or directory) - aborting
+Class CheckinService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/checkin/CheckinApiService.java (No such file or directory) - aborting
+Class CheckinApiService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chromesync/sync/SyncService.java (No such file or directory) - aborting
+Class SyncService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/config/ConfigService.java (No such file or directory) - aborting
+Class ConfigService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/common/stats/GmsCoreStatsService.java (No such file or directory) - aborting
+Class GmsCoreStatsService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/drive/metadata/sync/syncadapter/SyncAdapterService.java (No such file or directory) - aborting
+Class SyncAdapterService.java: vulnerable (0ms)
+Class DroidGuardService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/feedback/LegacyBugReportService.java (No such file or directory) - aborting
+Class LegacyBugReportService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fido/u2f/U2fService.java (No such file or directory) - aborting
+Class U2fService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/firebase/auth/api/gms/service/FirebaseAuthService.java (No such file or directory) - aborting
+Class FirebaseAuthService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/proxy/FitProxyBroker.java (No such file or directory) - aborting
+Class FitProxyBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/recording/FitRecordingBroker.java (No such file or directory) - aborting
+Class FitRecordingBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/sessions/FitSessionsBroker.java (No such file or directory) - aborting
+Class FitSessionsBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/history/FitHistoryBroker.java (No such file or directory) - aborting
+Class FitHistoryBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/goals/FitGoalsBroker.java (No such file or directory) - aborting
+Class FitGoalsBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/cache/DataUpdateListenerCacheService.java (No such file or directory) - aborting
+Class DataUpdateListenerCacheService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/sensors/FitSensorsBroker.java (No such file or directory) - aborting
+Class FitSensorsBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/ble/FitBleBroker.java (No such file or directory) - aborting
+Class FitBleBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/config/FitConfigBroker.java (No such file or directory) - aborting
+Class FitConfigBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/internal/FitInternalBroker.java (No such file or directory) - aborting
+Class FitInternalBroker.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/sync/FitnessSyncAdapterService.java (No such file or directory) - aborting
+Class FitnessSyncAdapterService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/wearables/WearableSyncService.java (No such file or directory) - aborting
+Class WearableSyncService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/wearable/WearableSyncMessageService.java (No such file or directory) - aborting
+Class WearableSyncMessageService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/wearable/WearableSyncAccountService.java (No such file or directory) - aborting
+Class WearableSyncAccountService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/wearable/WearableSyncConnectionService.java (No such file or directory) - aborting
+Class WearableSyncConnectionService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/fitness/service/wearable/WearableSyncConfigService.java (No such file or directory) - aborting
+Class WearableSyncConfigService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/games/chimera/GamesAndroidServiceProxy.java (No such file or directory) - aborting
+Class GamesAndroidServiceProxy.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/games/chimera/GamesSignInServiceProxy.java (No such file or directory) - aborting
+Class GamesSignInServiceProxy.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/games/chimera/GamesSyncServiceNotificationProxy.java (No such file or directory) - aborting
+Class GamesSyncServiceNotificationProxy.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/gass/GassService.java (No such file or directory) - aborting
+Class GassService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/gcm/PushMessagingRegistrarProxy.java (No such file or directory) - aborting
+Class PushMessagingRegistrarProxy.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/gcm/GcmService.java (No such file or directory) - aborting
+Class GcmService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/gcm/http/GoogleHttpService.java (No such file or directory) - aborting
+Class GoogleHttpService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/googlehelp/service/GoogleHelpService.java (No such file or directory) - aborting
+Class GoogleHelpService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/icing/service/IndexService.java (No such file or directory) - aborting
+Class IndexService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/icing/service/AppIndexingService.java (No such file or directory) - aborting
+Class AppIndexingService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/instantapps/service/InstantAppsService.java (No such file or directory) - aborting
+Class InstantAppsService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/kids/chimera/KidsServiceProxy.java (No such file or directory) - aborting
+Class KidsServiceProxy.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/kids/JobService.java (No such file or directory) - aborting
+Class JobService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/location/fused/wearable/GmsWearableListenerService.java (No such file or directory) - aborting
+Class GmsWearableListenerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/location/network/NetworkLocationService.java (No such file or directory) - aborting
+Class NetworkLocationService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/location/internal/GoogleLocationManagerService.java (No such file or directory) - aborting
+Class GoogleLocationManagerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/location/reporting/service/ReportingAndroidService.java (No such file or directory) - aborting
+Class ReportingAndroidService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/location/wearable/WearableLocationService.java (No such file or directory) - aborting
+Class WearableLocationService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/locationsharing/service/LocationSharingService.java (No such file or directory) - aborting
+Class LocationSharingService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/lockbox/service/LockboxBrokerService.java (No such file or directory) - aborting
+Class LockboxBrokerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/maps/auth/ApiTokenService.java (No such file or directory) - aborting
+Class ApiTokenService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/maps/service/HttpProxyService.java (No such file or directory) - aborting
+Class HttpProxyService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/matchstick/contacts/reachability/ReachabilityService.java (No such file or directory) - aborting
+Class ReachabilityService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/measurement/service/MeasurementBrokerService.java (No such file or directory) - aborting
+Class MeasurementBrokerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/audiomodem/service/AudioModemService.java (No such file or directory) - aborting
+Class AudioModemService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/nearby/bootstrap/service/NearbyBootstrapService.java (No such file or directory) - aborting
+Class NearbyBootstrapService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/nearby/connection/service/NearbyConnectionsAndroidService.java (No such file or directory) - aborting
+Class NearbyConnectionsAndroidService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/location/nearby/direct/service/NearbyDirectService.java (No such file or directory) - aborting
+Class NearbyDirectService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/nearby/mediums/nearfieldcommunication/NfcAdvertisingService.java (No such file or directory) - aborting
+Class NfcAdvertisingService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/nearby/messages/service/NearbyMessagesService.java (No such file or directory) - aborting
+Class NearbyMessagesService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/nearby/messages/debug/DebugPokeService.java (No such file or directory) - aborting
+Class DebugPokeService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/nearby/sharing/SharingTileService.java (No such file or directory) - aborting
+Class SharingTileService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/update/SystemUpdateService.java (No such file or directory) - aborting
+Class SystemUpdateService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/people/sync/PeopleSyncService.java (No such file or directory) - aborting
+Class PeopleSyncService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/people/sync/focus/delegation/ContactsSyncDelegateService.java (No such file or directory) - aborting
+Class ContactsSyncDelegateService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/plus/service/PlusService.java (No such file or directory) - aborting
+Class PlusService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/plus/service/OfflineActionSyncAdapterService.java (No such file or directory) - aborting
+Class OfflineActionSyncAdapterService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/reminders/sync/RemindersSyncService.java (No such file or directory) - aborting
+Class RemindersSyncService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/security/verifier/ApkUploadService.java (No such file or directory) - aborting
+Class ApkUploadService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/mdm/services/DeviceManagerApiService.java (No such file or directory) - aborting
+Class DeviceManagerApiService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/smartdevice/setup/accounts/AccountsService.java (No such file or directory) - aborting
+Class AccountsService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/subscribedfeeds/SyncService.java (No such file or directory) - aborting
+Class SyncService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/subscribedfeeds/GmsFeedsSyncService.java (No such file or directory) - aborting
+Class GmsFeedsSyncService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/tapandpay/hce/service/TpHceService.java (No such file or directory) - aborting
+Class TpHceService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/auth/trustagent/GoogleTrustAgent.java (No such file or directory) - aborting
+Class GoogleTrustAgent.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/wallet/service/PaymentService.java (No such file or directory) - aborting
+Class PaymentService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/wallet/service/address/AddressService.java (No such file or directory) - aborting
+Class AddressService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/wearable/service/WearableService.java (No such file or directory) - aborting
+Class WearableService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/container/ExternalFileApkService.java (No such file or directory) - aborting
+Class ExternalFileApkService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/GmsApiService.java (No such file or directory) - aborting
+Class GmsApiService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/GmsApiServiceNoInstantApps.java (No such file or directory) - aborting
+Class GmsApiServiceNoInstantApps.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/PersistentApiService.java (No such file or directory) - aborting
+Class PersistentApiService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/PersistentApiServiceNoInstantApps.java (No such file or directory) - aborting
+Class PersistentApiServiceNoInstantApps.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/PersistentDirectBootAwareApiService.java (No such file or directory) - aborting
+Class PersistentDirectBootAwareApiService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/UiApiServiceNoInstantApps.java (No such file or directory) - aborting
+Class UiApiServiceNoInstantApps.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/GmsBoundBrokerService.java (No such file or directory) - aborting
+Class GmsBoundBrokerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/PersistentBoundBrokerService.java (No such file or directory) - aborting
+Class PersistentBoundBrokerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/chimera/CarBoundBrokerService.java (No such file or directory) - aborting
+Class CarBoundBrokerService.java: vulnerable (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/auth/api/signin/RevocationBoundService.java (No such file or directory) - aborting
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/com/google/android/gms/nearby/exposurenotification/WakeUpService.java (No such file or directory) - aborting
+Class WakeUpService.java: vulnerable (requires permission) (0ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Google_play_service_22.50.14/sources/org/chromium/customtabsclient/shared/KeepAliveService.java (No such file or directory) - aborting
+Class KeepAliveService.java: vulnerable (0ms)

@@ -1,0 +1,2 @@
+com.google.android.contacts
+com.android.contacts.activities.PeopleActivity

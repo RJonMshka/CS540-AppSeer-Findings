@@ -1,0 +1,35 @@
+###### Components analysis for Application: GBoard_11.9.06.452014594 ######
+
+Found 4 exported components:
+Component:
+	Name: com.android.inputmethod.latin.LatinIME
+	Type: S
+	Permission: android.permission.BIND_INPUT_METHOD
+	Intent Filters:
+
+Component:
+	Name: com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService
+	Type: S
+	Permission: android.permission.BIND_TEXT_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.libraries.inputmethod.taskscheduler.JobSchedulerImpl$TaskRunnerJobService
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.apps.inputmethod.libs.nga.impl.KeyboardDictationService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: GBoard_11.9.06.452014594 ######
+
+Class LatinIME.java: vulnerable (requires permission) (0ms)
+Class AndroidSpellCheckerService.java: vulnerable (requires permission) (0ms)
+Class JobSchedulerImpl$TaskRunnerJobService.java: vulnerable (requires permission) (0ms)
+Class KeyboardDictationService.java: vulnerable (0ms)
