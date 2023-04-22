@@ -1,0 +1,10 @@
+com.zhiliaoapp.musically
+com.ss.android.ugc.aweme.splash.SplashActivity
+com.ss.android.ugc.trill.account.TiktokAuthService
+com.ss.android.ugc.aweme.livewallpaper.AmeLiveWallpaper
+com.ss.android.ugc.aweme.tools.policysecurity.OriginalSoundUploadService
+com.ss.android.ugc.aweme.tools.extract.video.VideoFramesUploadService
+com.ss.android.message.NotifyService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.heytap.msp.push.service.DataMessageCallbackService
+com.heytap.msp.push.service.CompatibleDataMessageCallbackService

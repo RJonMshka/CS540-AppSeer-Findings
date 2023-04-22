@@ -1,0 +1,10 @@
+com.microsoft.teams
+com.microsoft.skype.teams.Launcher
+com.microsoft.skype.teams.calling.call.CommandInvokerService
+com.microsoft.skype.teams.services.postmessage.PostMessageServiceQueueJobP
+com.microsoft.skype.teams.services.authorization.SkypeTokenRefreshJobM
+androidx.sharetarget.ChooserTargetServiceCompat
+com.microsoft.skype.teams.calling.telecom.TelecomConnectionService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService
+com.microsoft.tokenshare.TokenSharingService

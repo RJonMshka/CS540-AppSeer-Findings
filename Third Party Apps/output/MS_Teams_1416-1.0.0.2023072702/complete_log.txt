@@ -1,0 +1,63 @@
+###### Components analysis for Application: MS_Teams_1416-1.0.0.2023072702 ######
+
+Found 8 exported components:
+Component:
+	Name: com.microsoft.skype.teams.calling.call.CommandInvokerService
+	Type: S
+	Permission: android.permission.CALL_PHONE
+	Intent Filters: none
+
+Component:
+	Name: com.microsoft.skype.teams.services.postmessage.PostMessageServiceQueueJobP
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.microsoft.skype.teams.services.authorization.SkypeTokenRefreshJobM
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: androidx.sharetarget.ChooserTargetServiceCompat
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.microsoft.skype.teams.calling.telecom.TelecomConnectionService
+	Type: S
+	Permission: android.permission.BIND_TELECOM_CONNECTION_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.microsoft.tokenshare.TokenSharingService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: MS_Teams_1416-1.0.0.2023072702 ######
+
+Class CommandInvokerService.java: vulnerable (requires permission) (3ms)
+Class PostMessageServiceQueueJobP.java: vulnerable (requires permission) (4ms)
+Class SkypeTokenRefreshJobM.java: vulnerable (requires permission) (3ms)
+Class ChooserTargetServiceCompat.java: vulnerable (requires permission) (1ms)
+Class TelecomConnectionService.java: vulnerable (requires permission) (20ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class MAMNotificationReceiverService.java: vulnerable (0ms)
+Class TokenSharingService.java: vulnerable (1ms)
