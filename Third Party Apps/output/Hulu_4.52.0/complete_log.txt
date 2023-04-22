@@ -1,0 +1,21 @@
+###### Components analysis for Application: Hulu_4.52.0 ######
+
+Found 2 exported components:
+Component:
+	Name: com.hulu.features.notifications.HuluFirebaseMessagingService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Hulu_4.52.0 ######
+
+Class HuluFirebaseMessagingService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

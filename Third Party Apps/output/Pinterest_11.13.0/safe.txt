@@ -1,0 +1,2 @@
+com.pinterest
+com.pinterest.activity.PinterestActivity

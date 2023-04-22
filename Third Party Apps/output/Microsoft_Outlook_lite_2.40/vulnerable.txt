@@ -1,0 +1,4 @@
+com.microsoft.outlooklite
+com.microsoft.outlooklite.MainActivity
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.microsoft.tokenshare.TokenSharingService

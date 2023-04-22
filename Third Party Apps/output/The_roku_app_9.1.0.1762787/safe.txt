@@ -1,0 +1,2 @@
+com.roku.remote
+com.roku.remote.ui.activities.splash.SplashActivity

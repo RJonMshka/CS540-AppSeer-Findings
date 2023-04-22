@@ -1,0 +1,8 @@
+com.netflix.mediaclient
+com.netflix.mediaclient.ui.launch.UIWebViewActivity
+com.netflix.mediaclient.service.fcm.FcmService
+com.netflix.mediaclient.service.fcm.FcmJobService
+com.netflix.mediaclient.service.job.NetflixJobService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.firebase.jobdispatcher.GooglePlayReceiver
+com.netflix.partner.PService

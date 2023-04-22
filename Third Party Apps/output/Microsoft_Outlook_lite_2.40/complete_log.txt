@@ -1,0 +1,21 @@
+###### Components analysis for Application: Microsoft_Outlook_lite_2.40 ######
+
+Found 2 exported components:
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: com.microsoft.tokenshare.TokenSharingService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Microsoft_Outlook_lite_2.40 ######
+
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class TokenSharingService.java: vulnerable (4ms)

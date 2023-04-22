@@ -1,0 +1,14 @@
+###### Components analysis for Application: The_roku_app_9.1.0.1762787 ######
+
+Found 1 exported components:
+Component:
+	Name: com.roku.remote.authenticator.service.RokuAuthenticationService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: The_roku_app_9.1.0.1762787 ######
+
+Class RokuAuthenticationService.java: vulnerable (0ms)

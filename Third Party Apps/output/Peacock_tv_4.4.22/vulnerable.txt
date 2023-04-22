@@ -1,0 +1,6 @@
+com.peacocktv.peacockandroid
+com.nowtv.startup.StartupActivity
+com.sky.skyid.SkyIdAuthenticatorService
+com.google.android.exoplayer2.scheduler.PlatformScheduler.PlatformSchedulerService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.sky.vault.account.VaultAuthenticationService

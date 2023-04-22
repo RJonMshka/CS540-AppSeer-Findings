@@ -1,0 +1,14 @@
+###### Components analysis for Application: Tubi_4.46.2 ######
+
+Found 1 exported components:
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Tubi_4.46.2 ######
+
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

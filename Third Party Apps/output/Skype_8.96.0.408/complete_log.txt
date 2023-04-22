@@ -1,0 +1,28 @@
+###### Components analysis for Application: Skype_8.96.0.408 ######
+
+Found 3 exported components:
+Component:
+	Name: com.skype4life.syncadapter.AccountService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: androidx.sharetarget.ChooserTargetServiceCompat
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.microsoft.tokenshare.TokenSharingService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Skype_8.96.0.408 ######
+
+Class AccountService.java: vulnerable (3ms)
+Class ChooserTargetServiceCompat.java: vulnerable (requires permission) (3ms)
+Class TokenSharingService.java: vulnerable (1ms)

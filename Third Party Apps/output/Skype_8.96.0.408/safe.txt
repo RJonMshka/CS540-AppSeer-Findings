@@ -1,0 +1,2 @@
+com.skype.raider
+com.skype4life.MainActivity

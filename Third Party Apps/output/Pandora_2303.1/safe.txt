@@ -1,0 +1,2 @@
+com.pandora.android
+com.pandora.android.LauncherActivity

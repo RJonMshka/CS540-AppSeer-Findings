@@ -1,0 +1,5 @@
+com.skype.raider
+com.skype4life.MainActivity
+com.skype4life.syncadapter.AccountService
+androidx.sharetarget.ChooserTargetServiceCompat
+com.microsoft.tokenshare.TokenSharingService

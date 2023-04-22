@@ -1,0 +1,3 @@
+com.tubitv
+com.tubitv.activities.MainActivity
+com.google.android.gms.auth.api.signin.RevocationBoundService

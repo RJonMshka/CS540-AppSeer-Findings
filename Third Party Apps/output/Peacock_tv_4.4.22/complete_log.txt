@@ -1,0 +1,36 @@
+###### Components analysis for Application: Peacock_tv_4.4.22 ######
+
+Found 4 exported components:
+Component:
+	Name: com.sky.skyid.SkyIdAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.exoplayer2.scheduler.PlatformScheduler.PlatformSchedulerService
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: com.sky.vault.account.VaultAuthenticationService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Peacock_tv_4.4.22 ######
+
+Class SkyIdAuthenticatorService.java: vulnerable (1ms)
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Peacock_tv_4.4.22/sources/com/google/android/exoplayer2/scheduler/PlatformScheduler/PlatformSchedulerService.java (No such file or directory) - aborting
+Class PlatformSchedulerService.java: vulnerable (requires permission) (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class VaultAuthenticationService.java: vulnerable (1ms)

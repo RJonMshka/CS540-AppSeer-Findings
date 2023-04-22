@@ -1,0 +1,3 @@
+com.pinterest
+com.pinterest.activity.PinterestActivity
+com.google.android.gms.auth.api.signin.RevocationBoundService

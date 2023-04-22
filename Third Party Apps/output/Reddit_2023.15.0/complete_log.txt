@@ -1,0 +1,35 @@
+###### Components analysis for Application: Reddit_2023.15.0 ######
+
+Found 4 exported components:
+Component:
+	Name: com.reddit.auth.impl.AuthService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.reddit.sync.UserDataSyncService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.reddit.sync.AppDataSyncService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Reddit_2023.15.0 ######
+
+Class AuthService.java: vulnerable (0ms)
+Class UserDataSyncService.java: vulnerable (0ms)
+Class AppDataSyncService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

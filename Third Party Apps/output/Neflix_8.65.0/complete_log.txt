@@ -1,0 +1,49 @@
+###### Components analysis for Application: Neflix_8.65.0 ######
+
+Found 6 exported components:
+Component:
+	Name: com.netflix.mediaclient.service.fcm.FcmService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.netflix.mediaclient.service.fcm.FcmJobService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.netflix.mediaclient.service.job.NetflixJobService
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: com.firebase.jobdispatcher.GooglePlayReceiver
+	Type: S
+	Permission: com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.netflix.partner.PService
+	Type: S
+	Permission: com.netflix.partner
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Neflix_8.65.0 ######
+
+Class FcmService.java: vulnerable (0ms)
+Class FcmJobService.java: vulnerable (0ms)
+Class NetflixJobService.java: vulnerable (requires permission) (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class GooglePlayReceiver.java: vulnerable (requires permission) (3ms)
+Class PService.java: vulnerable (requires permission) (2ms)

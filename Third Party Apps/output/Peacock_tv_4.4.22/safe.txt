@@ -1,0 +1,2 @@
+com.peacocktv.peacockandroid
+com.nowtv.startup.StartupActivity

@@ -1,0 +1,2 @@
+com.instagram.android
+com.instagram.android.activity.MainTabActivity

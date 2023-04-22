@@ -1,0 +1,2 @@
+com.scaleup.chatai
+com.scaleup.chatai.SplashActivity

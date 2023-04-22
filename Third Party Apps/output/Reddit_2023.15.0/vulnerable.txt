@@ -1,0 +1,6 @@
+com.reddit.frontpage
+launcher.planet
+com.reddit.auth.impl.AuthService
+com.reddit.sync.UserDataSyncService
+com.reddit.sync.AppDataSyncService
+com.google.android.gms.auth.api.signin.RevocationBoundService

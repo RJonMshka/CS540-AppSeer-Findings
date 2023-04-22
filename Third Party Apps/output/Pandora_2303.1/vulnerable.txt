@@ -1,0 +1,5 @@
+com.pandora.android
+com.pandora.android.LauncherActivity
+com.pandora.fordsync.SdlRouterService
+com.pandora.android.media.PandoraBrowserService
+com.google.android.gms.auth.api.signin.RevocationBoundService

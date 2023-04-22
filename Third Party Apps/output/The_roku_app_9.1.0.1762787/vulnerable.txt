@@ -1,0 +1,3 @@
+com.roku.remote
+com.roku.remote.ui.activities.splash.SplashActivity
+com.roku.remote.authenticator.service.RokuAuthenticationService

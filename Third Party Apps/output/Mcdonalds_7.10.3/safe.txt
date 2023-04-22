@@ -1,0 +1,2 @@
+com.mcdonalds.app
+com.mcdonalds.mcdcoreapp.common.activity.SplashActivity

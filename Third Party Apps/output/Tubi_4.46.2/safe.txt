@@ -1,0 +1,2 @@
+com.tubitv
+com.tubitv.activities.MainActivity
