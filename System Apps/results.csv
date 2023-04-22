@@ -1,1 +1,4 @@
 App Name, True positive (vulnerable), False positive, False negative, True negative (safe), More Details
+Google Settings 13, 1/2, 1/2, 0/0, 0/0
+SIM Toolkit 13, 0/0, 0/0, 0/0, 0/0
+Google Messages 20220809_01_RC02, 5/8, 3/8, 0/0, 0/0

@@ -1,0 +1,63 @@
+###### Components analysis for Application: Google_Messages_20220809_01_RC02 ######
+
+Found 8 exported components:
+Component:
+	Name: com.google.android.apps.messaging.shared.datamodel.BugleChooserTargetService
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.apps.messaging.shared.NoConfirmationSmsSendService
+	Type: S
+	Permission: android.permission.SEND_RESPOND_VIA_MESSAGE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.apps.messaging.wearable.WearableBindService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.ims.service.JibeService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.apps.messaging.rcsmigration.RcsMigrationService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.apps.messaging.backup.g1.GoogleOneRestoreService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.apps.messaging.shared.rcs.messaging.MessagingEngineNotificationServer
+	Type: S
+	Permission: com.google.android.apps.messaging.services.ACCESS_MESSAGING_NOTIFICATION_SERVICE
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Google_Messages_20220809_01_RC02 ######
+
+Class BugleChooserTargetService.java: vulnerable (requires permission) (0ms)
+Class NoConfirmationSmsSendService.java: vulnerable (requires permission) (0ms)
+Class WearableBindService.java: vulnerable (0ms)
+Class JibeService.java: vulnerable (4ms)
+Class RcsMigrationService.java: vulnerable (0ms)
+Class GoogleOneRestoreService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class MessagingEngineNotificationServer.java: vulnerable (requires permission) (0ms)

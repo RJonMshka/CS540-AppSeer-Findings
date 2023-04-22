@@ -1,0 +1,2 @@
+com.android.stk
+com.android.stk.StkMain

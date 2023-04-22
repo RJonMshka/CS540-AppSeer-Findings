@@ -1,0 +1,21 @@
+###### Components analysis for Application: Google_Settings_13 ######
+
+Found 2 exported components:
+Component:
+	Name: com.android.settings.wifi.tether.TetherService
+	Type: S
+	Permission: android.permission.TETHER_PRIVILEGED
+	Intent Filters: none
+
+Component:
+	Name: com.android.settings.SettingsDumpService
+	Type: S
+	Permission: android.permission.DUMP
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Google_Settings_13 ######
+
+Class TetherService.java: vulnerable (requires permission) (5ms)
+Class SettingsDumpService.java: vulnerable (requires permission) (1ms)

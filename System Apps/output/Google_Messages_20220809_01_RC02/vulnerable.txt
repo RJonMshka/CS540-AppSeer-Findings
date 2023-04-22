@@ -1,0 +1,10 @@
+com.google.android.apps.messaging
+com.google.android.apps.messaging.ui.ConversationListActivity
+com.google.android.apps.messaging.shared.datamodel.BugleChooserTargetService
+com.google.android.apps.messaging.shared.NoConfirmationSmsSendService
+com.google.android.apps.messaging.wearable.WearableBindService
+com.google.android.ims.service.JibeService
+com.google.android.apps.messaging.rcsmigration.RcsMigrationService
+com.google.android.apps.messaging.backup.g1.GoogleOneRestoreService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.google.android.apps.messaging.shared.rcs.messaging.MessagingEngineNotificationServer
