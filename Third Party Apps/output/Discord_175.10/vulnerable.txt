@@ -1,0 +1,5 @@
+com.discord
+com.discord.main.MainActivity
+com.google.android.gms.nearby.exposurenotification.WakeUpService
+androidx.sharetarget.ChooserTargetServiceCompat
+com.google.android.gms.auth.api.signin.RevocationBoundService

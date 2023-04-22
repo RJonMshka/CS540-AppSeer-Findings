@@ -1,0 +1,28 @@
+###### Components analysis for Application: Youtube_18.05.40 ######
+
+Found 3 exported components:
+Component:
+	Name: com.google.android.youtube.api.service.YouTubeService
+	Type: S
+	Permission: android.permission.INTERNET
+	Intent Filters:
+
+Component:
+	Name: com.google.android.apps.youtube.app.common.notification.FcmMessageListenerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.apps.youtube.app.extensions.mediabrowser.impl.MainAppMediaBrowserService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Youtube_18.05.40 ######
+
+Class YouTubeService.java: vulnerable (requires permission) (0ms)
+Class FcmMessageListenerService.java: vulnerable (0ms)
+Class MainAppMediaBrowserService.java: vulnerable (0ms)

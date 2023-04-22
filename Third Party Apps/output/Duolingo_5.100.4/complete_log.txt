@@ -1,0 +1,28 @@
+###### Components analysis for Application: Duolingo_5.100.4 ######
+
+Found 3 exported components:
+Component:
+	Name: com.duolingo.notifications.FcmIntentService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.duolingo.core.account.AccountService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Duolingo_5.100.4 ######
+
+Class FcmIntentService.java: vulnerable (0ms)
+Class AccountService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

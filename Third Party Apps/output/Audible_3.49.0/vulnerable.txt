@@ -1,0 +1,5 @@
+com.audible.application
+com.audible.application.SplashScreen
+com.audible.application.mediabrowser.BaseApplicationMediaBrowserService
+com.amazon.alexa.system.UserInactivityAuthority.UserInactivityReportingJob
+com.amazon.alexa.handsfree.protocols.sync.DataSyncService

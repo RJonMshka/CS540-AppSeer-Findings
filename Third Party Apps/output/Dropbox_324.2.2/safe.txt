@@ -1,0 +1,2 @@
+com.dropbox.android
+com.dropbox.android.activity.DropboxBrowser

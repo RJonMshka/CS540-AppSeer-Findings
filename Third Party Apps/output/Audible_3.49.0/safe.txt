@@ -1,0 +1,2 @@
+com.audible.application
+com.audible.application.SplashScreen

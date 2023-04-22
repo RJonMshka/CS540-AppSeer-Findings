@@ -1,0 +1,2 @@
+com.google.android.apps.docs
+com.google.android.apps.docs.app.NewMainProxyActivity

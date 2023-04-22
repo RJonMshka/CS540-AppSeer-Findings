@@ -1,0 +1,5 @@
+com.google.android.youtube
+com.google.android.youtube.HomeActivity
+com.google.android.youtube.api.service.YouTubeService
+com.google.android.apps.youtube.app.common.notification.FcmMessageListenerService
+com.google.android.apps.youtube.app.extensions.mediabrowser.impl.MainAppMediaBrowserService

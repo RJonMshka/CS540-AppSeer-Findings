@@ -1,0 +1,2 @@
+com.discord
+com.discord.main.MainActivity

@@ -1,0 +1,63 @@
+###### Components analysis for Application: Fitbit_3.79 ######
+
+Found 8 exported components:
+Component:
+	Name: com.fitbit.dncs.observers.AllAppNotificationListenerService
+	Type: S
+	Permission: android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.fitbit.serverinteraction.SsoService
+	Type: S
+	Permission: com.fitbit.FitbitMobile.permission.SSO
+	Intent Filters:
+
+Component:
+	Name: com.fitbit.fcm.FCMMessageListenerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: com.fitbit.cronus.impl.wear.WearService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.fitbit.gpay.GPayMseService
+	Type: S
+	Permission: com.google.android.gms.permission.SEND_ANDROID_PAY_DATA
+	Intent Filters:
+
+Component:
+	Name: com.fitbit.navigation.NavigationConsumerService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: androidx.health.platform.client.impl.sdkservice.HealthDataSdkService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: Fitbit_3.79 ######
+
+Class AllAppNotificationListenerService.java: vulnerable (requires permission) (0ms)
+Class SsoService.java: vulnerable (requires permission) (2ms)
+Class FCMMessageListenerService.java: vulnerable (7ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class WearService.java: vulnerable (0ms)
+Class GPayMseService.java: vulnerable (requires permission) (0ms)
+Class NavigationConsumerService.java: vulnerable (0ms)
+Class HealthDataSdkService.java: vulnerable (0ms)

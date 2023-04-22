@@ -1,0 +1,28 @@
+###### Components analysis for Application: Discord_175.10 ######
+
+Found 3 exported components:
+Component:
+	Name: com.google.android.gms.nearby.exposurenotification.WakeUpService
+	Type: S
+	Permission: com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK
+	Intent Filters: none
+
+Component:
+	Name: androidx.sharetarget.ChooserTargetServiceCompat
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Discord_175.10 ######
+
+Class WakeUpService.java: vulnerable (requires permission) (1ms)
+Class ChooserTargetServiceCompat.java: vulnerable (requires permission) (3ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

@@ -1,0 +1,3 @@
+com.bumble.app
+com.bumble.app.ui.launcher.BumbleLauncherActivity
+com.google.android.gms.auth.api.signin.RevocationBoundService

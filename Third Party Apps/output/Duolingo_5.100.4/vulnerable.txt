@@ -1,0 +1,5 @@
+com.duolingo
+com.duolingo.app.StreakSocietyLauncher
+com.duolingo.notifications.FcmIntentService
+com.duolingo.core.account.AccountService
+com.google.android.gms.auth.api.signin.RevocationBoundService

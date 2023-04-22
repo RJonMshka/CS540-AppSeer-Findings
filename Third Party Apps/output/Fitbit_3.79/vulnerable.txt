@@ -1,0 +1,10 @@
+com.fitbit.FitbitMobile
+com.fitbit.FirstActivity
+com.fitbit.dncs.observers.AllAppNotificationListenerService
+com.fitbit.serverinteraction.SsoService
+com.fitbit.fcm.FCMMessageListenerService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.fitbit.cronus.impl.wear.WearService
+com.fitbit.gpay.GPayMseService
+com.fitbit.navigation.NavigationConsumerService
+androidx.health.platform.client.impl.sdkservice.HealthDataSdkService

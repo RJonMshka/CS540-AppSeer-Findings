@@ -1,0 +1,5 @@
+com.dropbox.android
+com.dropbox.android.activity.DropboxBrowser
+com.dropbox.android.cloudmessaging.DbxCloudMessagingService
+com.dropbox.android.service.AuthenticationService
+com.google.android.gms.auth.api.signin.RevocationBoundService

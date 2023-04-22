@@ -1,0 +1,22 @@
+###### Components analysis for Application: Hbo_max_53.20.0.2 ######
+
+Found 2 exported components:
+Component:
+	Name: com.google.android.exoplayer2.scheduler.PlatformScheduler.PlatformSchedulerService
+	Type: S
+	Permission: android.permission.BIND_JOB_SERVICE
+	Intent Filters: none
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: Hbo_max_53.20.0.2 ######
+
+/Users/rajatkumar/Desktop/CS/CS540/AppSeerGUI-master/jadx_out/Hbo_max_53.20.0.2/sources/com/google/android/exoplayer2/scheduler/PlatformScheduler/PlatformSchedulerService.java (No such file or directory) - aborting
+Class PlatformSchedulerService.java: vulnerable (requires permission) (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
