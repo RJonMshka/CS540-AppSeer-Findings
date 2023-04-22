@@ -1,0 +1,2 @@
+com.walmart.android
+com.walmart.glass.integration.splash.SplashActivity

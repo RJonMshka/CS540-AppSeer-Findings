@@ -1,0 +1,5 @@
+com.twitter.android
+com.twitter.android.StartActivity
+com.twitter.notification.service.firebase.TwitterFirebaseMessagingService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+androidx.sharetarget.ChooserTargetServiceCompat

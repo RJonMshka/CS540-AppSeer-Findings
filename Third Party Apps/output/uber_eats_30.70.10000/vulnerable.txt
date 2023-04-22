@@ -1,0 +1,5 @@
+com.uber.restaurants
+com.uber.restaurants.LaunchActivity
+com.google.android.gms.auth.api.signin.RevocationBoundService
+androidx.browser.customtabs.PostMessageService
+com.ubercab.login.AuthenticationService

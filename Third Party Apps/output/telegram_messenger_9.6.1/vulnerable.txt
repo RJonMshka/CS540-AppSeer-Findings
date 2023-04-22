@@ -1,0 +1,12 @@
+org.telegram.messenger.beta
+org.telegram.messenger.DefaultIcon
+org.telegram.messenger.GcmPushListenerService
+org.telegram.messenger.GoogleVoiceClientService
+org.telegram.messenger.AuthenticatorService
+org.telegram.messenger.ContactsSyncAdapterService
+org.telegram.messenger.BringAppForegroundService
+org.telegram.messenger.NotificationsService
+org.telegram.messenger.MusicBrowserService
+org.telegram.messenger.voip.TelegramConnectionService
+androidx.sharetarget.ChooserTargetServiceCompat
+com.google.android.gms.auth.api.signin.RevocationBoundService

@@ -1,0 +1,28 @@
+###### Components analysis for Application: uber_eats_30.70.10000 ######
+
+Found 3 exported components:
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: androidx.browser.customtabs.PostMessageService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: com.ubercab.login.AuthenticationService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: uber_eats_30.70.10000 ######
+
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class PostMessageService.java: vulnerable (2ms)
+Class AuthenticationService.java: vulnerable (3ms)

@@ -1,0 +1,28 @@
+###### Components analysis for Application: twitter_9.85.0 ######
+
+Found 3 exported components:
+Component:
+	Name: com.twitter.notification.service.firebase.TwitterFirebaseMessagingService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: androidx.sharetarget.ChooserTargetServiceCompat
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: twitter_9.85.0 ######
+
+Class TwitterFirebaseMessagingService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class ChooserTargetServiceCompat.java: vulnerable (requires permission) (5ms)

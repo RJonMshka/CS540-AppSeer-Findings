@@ -1,0 +1,6 @@
+org.telegram.messenger.beta
+org.telegram.messenger.DefaultIcon
+org.telegram.messenger.VideoEncodingService
+org.telegram.messenger.ImportingService
+org.telegram.messenger.LocationSharingService
+org.telegram.messenger.MusicPlayerService

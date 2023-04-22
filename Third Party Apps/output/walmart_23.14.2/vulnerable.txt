@@ -1,0 +1,3 @@
+com.walmart.android
+com.walmart.glass.integration.splash.SplashActivity
+com.google.android.gms.auth.api.signin.RevocationBoundService

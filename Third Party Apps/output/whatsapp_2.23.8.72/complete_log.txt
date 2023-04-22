@@ -1,0 +1,42 @@
+###### Components analysis for Application: whatsapp_2.23.8.72 ######
+
+Found 6 exported components:
+Component:
+	Name: com.whatsapp.instrumentation.api.InstrumentationService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.whatsapp.accountsync.AccountAuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.whatsapp.wearos.WearOsListenerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+Component:
+	Name: androidx.sharetarget.ChooserTargetServiceCompat
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+
+
+###### Vulnerability analysis for Application: whatsapp_2.23.8.72 ######
+
+Class InstrumentationService.java: vulnerable (1ms)
+Class AccountAuthenticatorService.java: vulnerable (2ms)
+Class WearOsListenerService.java: vulnerable (0ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
+Class ChooserTargetServiceCompat.java: vulnerable (requires permission) (3ms)

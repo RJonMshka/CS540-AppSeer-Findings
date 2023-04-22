@@ -1,0 +1,105 @@
+###### Components analysis for Application: telegram_messenger_9.6.1 ######
+
+Found 14 exported components:
+Component:
+	Name: org.telegram.messenger.GcmPushListenerService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: org.telegram.messenger.GoogleVoiceClientService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: org.telegram.messenger.AuthenticatorService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: org.telegram.messenger.ContactsSyncAdapterService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: org.telegram.messenger.BringAppForegroundService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: org.telegram.messenger.NotificationsService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: org.telegram.messenger.VideoEncodingService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: org.telegram.messenger.ImportingService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: org.telegram.messenger.LocationSharingService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: org.telegram.messenger.MusicPlayerService
+	Type: S
+	Permission: none
+	Intent Filters: none
+
+Component:
+	Name: org.telegram.messenger.MusicBrowserService
+	Type: S
+	Permission: none
+	Intent Filters:
+
+Component:
+	Name: org.telegram.messenger.voip.TelegramConnectionService
+	Type: S
+	Permission: android.permission.BIND_TELECOM_CONNECTION_SERVICE
+	Intent Filters:
+
+Component:
+	Name: androidx.sharetarget.ChooserTargetServiceCompat
+	Type: S
+	Permission: android.permission.BIND_CHOOSER_TARGET_SERVICE
+	Intent Filters:
+
+Component:
+	Name: com.google.android.gms.auth.api.signin.RevocationBoundService
+	Type: S
+	Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+	Intent Filters: none
+
+
+
+###### Vulnerability analysis for Application: telegram_messenger_9.6.1 ######
+
+Class GcmPushListenerService.java: vulnerable (7ms)
+Class GoogleVoiceClientService.java: vulnerable (5ms)
+Class AuthenticatorService.java: vulnerable (1ms)
+Class ContactsSyncAdapterService.java: vulnerable (1ms)
+Class BringAppForegroundService.java: vulnerable (1ms)
+Class NotificationsService.java: vulnerable (0ms)
+Class VideoEncodingService.java: safe (22ms)
+Class ImportingService.java: safe (9ms)
+Class LocationSharingService.java: safe (15ms)
+Class MusicPlayerService.java: safe (108ms)
+Class MusicBrowserService.java: vulnerable (3ms)
+Class TelegramConnectionService.java: vulnerable (requires permission) (8ms)
+Class ChooserTargetServiceCompat.java: vulnerable (requires permission) (1ms)
+Class RevocationBoundService.java: vulnerable (requires permission) (0ms)

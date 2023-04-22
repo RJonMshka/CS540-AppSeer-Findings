@@ -1,0 +1,7 @@
+com.whatsapp
+com.whatsapp.CreateConversationShortcut
+com.whatsapp.instrumentation.api.InstrumentationService
+com.whatsapp.accountsync.AccountAuthenticatorService
+com.whatsapp.wearos.WearOsListenerService
+com.google.android.gms.auth.api.signin.RevocationBoundService
+androidx.sharetarget.ChooserTargetServiceCompat
