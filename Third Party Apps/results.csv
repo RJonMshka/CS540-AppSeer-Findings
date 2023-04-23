@@ -2,3 +2,4 @@ App Name, True positive (vulnerable), False positive, False negative, True negat
 Telegram Messenger 9.6.1, 3/10, 7/10, 4/4, 0/4
 Audible 3.49.0, 1/3, 2/3, 0/0, 0/0
 Mcdonalds_7.10.3, 0/1, 1/1, 0/0, 0/0, 
+Youtube_18.05.40	0/1	 1/1, 0/0, 0/0,
