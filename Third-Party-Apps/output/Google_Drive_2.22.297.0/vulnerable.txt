@@ -1,5 +1,6 @@
 com.google.android.apps.docs
 com.google.android.apps.docs.app.NewMainProxyActivity
+com.google.android.apps.docs.drive.ipcservice.DriveIpcService
 com.google.android.apps.docs.common.sync.syncadapter.DocsSyncAdapterService
 com.google.android.apps.docs.drive.devtools.DeveloperToolsService
 com.google.android.gms.auth.api.signin.RevocationBoundService
