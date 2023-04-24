@@ -1,0 +1,4 @@
+com.einnovation.temu.service.farseer.LifeCycleJobService
+com.einnovation.temu.service.tide.UserAuthService
+com.einnovation.temu.service.tide.UserModuleService
+com.google.android.gms.auth.api.signin.RevocationBoundService

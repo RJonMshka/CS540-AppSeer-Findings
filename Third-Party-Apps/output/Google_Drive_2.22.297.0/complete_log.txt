@@ -1,6 +1,12 @@
-###### Components analysis for Application: Google_Drive_2.23.151.0 ######
+###### Components analysis for Application: Google_Drive_2.22.297.0 ######
 
-Found 3 exported components:
+Found 4 exported components:
+Component:
+	Name: com.google.android.apps.docs.drive.ipcservice.DriveIpcService
+	Type: S
+	Permission: none
+	Intent Filters:
+
 Component:
 	Name: com.google.android.apps.docs.common.sync.syncadapter.DocsSyncAdapterService
 	Type: S
@@ -21,8 +27,9 @@ Component:
 
 
 
-###### Vulnerability analysis for Application: Google_Drive_2.23.151.0 ######
+###### Vulnerability analysis for Application: Google_Drive_2.22.297.0 ######
 
-Class DocsSyncAdapterService.java: vulnerable (3ms)
+Class DriveIpcService.java: vulnerable (0ms)
+Class DocsSyncAdapterService.java: vulnerable (2ms)
 Class DeveloperToolsService.java: vulnerable (0ms)
 Class RevocationBoundService.java: vulnerable (requires permission) (0ms)
