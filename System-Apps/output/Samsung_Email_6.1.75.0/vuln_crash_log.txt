@@ -1,0 +1,316 @@
+com.samsung.android.email.ui.service.PopImapAuthenticatorService
+--------- beginning of crash
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 17932
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:02:58.300 17932 17932 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.ui.service.EasAuthenticatorService
+--------- beginning of crash
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 18048
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:03:18.090 18048 18048 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.ui.service.LdapAuthenticatorService
+--------- beginning of crash
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 18180
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:03:38.699 18180 18180 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.composer.common.EmailChooserTargetService
+--------- beginning of crash
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 18314
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:03:59.147 18314 18314 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.provider.provider.attachment.AttachmentDownloadService
+--------- beginning of crash
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 18444
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:04:19.672 18444 18444 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.ldap.LDAPService
+--------- beginning of crash
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 18569
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:04:40.460 18569 18569 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.provider.service.AccountCreationService
+--------- beginning of crash
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 18704
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:05:07.236 18704 18704 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.service.syncadapter.PopImapSyncAdapterService
+--------- beginning of crash
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 18760
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:05:29.982 18760 18760 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.service.syncadapter.LDAPSyncAdapterService
+--------- beginning of crash
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 18889
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:05:51.327 18889 18889 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.service.syncadapter.EmailSyncAdapterService
+--------- beginning of crash
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 19013
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:06:12.120 19013 19013 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.service.syncadapter.ContactsSyncAdapterService
+--------- beginning of crash
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 19139
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:06:33.263 19139 19139 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.service.syncadapter.CalendarSyncAdapterService
+--------- beginning of crash
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 19259
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:06:53.548 19259 19259 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.service.syncadapter.TasksSyncAdapterService
+com.samsung.android.email.sync.service.MailService
+--------- beginning of crash
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 19442
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:07:36.953 19442 19442 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.service.EmailService
+--------- beginning of crash
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: Process: com.samsung.android.email.provider, PID: 19598
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: java.lang.NoSuchMethodError: No static method semGetMyUserId()I in class Landroid/os/UserHandle; or its super classes (declaration of 'android.os.UserHandle' appears in /system/framework/framework.jar!classes2.dex)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.general.DeviceUtil.isInDoMode(DeviceUtil.java:45)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at com.samsung.android.email.provider.provider.database.AbsEmailProvider.onCreate(AbsEmailProvider.java:1213)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2451)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2421)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7462)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:07:57.453 19598 19598 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.samsung.android.email.sync.common.fbe.service.FBEEmailService
+--------- beginning of crash
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: FATAL EXCEPTION: main
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: Process: com.samsung.android.email.provider:fbeprocess, PID: 19725
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/samsung/android/util/SemLog;
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at com.samsung.android.emailcommon.basic.log.EmailLog.d(EmailLog.java:82)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at com.samsung.android.emailcommon.preferences.DebugSettingPreference.setUserDebug(DebugSettingPreference.java:501)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at com.samsung.android.email.provider.Email.onCreate(Email.java:92)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1277)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6759)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: com.samsung.android.util.SemLog
+04-24 00:08:17.976 19725 19725 E AndroidRuntime: 	... 14 more

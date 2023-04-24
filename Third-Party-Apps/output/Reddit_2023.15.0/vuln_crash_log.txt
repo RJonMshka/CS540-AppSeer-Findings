@@ -1,0 +1,19 @@
+com.reddit.auth.impl.AuthService
+com.reddit.sync.UserDataSyncService
+--------- beginning of crash
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: FATAL EXCEPTION: main
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: Process: com.reddit.frontpage, PID: 6280
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{4509dfb u0 com.reddit.frontpage/com.reddit.auth.impl.AuthService}
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+04-23 23:17:33.532  6280  6280 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.reddit.sync.AppDataSyncService
+com.google.android.gms.auth.api.signin.RevocationBoundService
