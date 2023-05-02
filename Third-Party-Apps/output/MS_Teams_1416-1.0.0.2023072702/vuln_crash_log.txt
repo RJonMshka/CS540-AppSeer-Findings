@@ -1,92 +1,118 @@
 com.microsoft.skype.teams.calling.call.CommandInvokerService
 --------- beginning of crash
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: FATAL EXCEPTION: main
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: Process: com.microsoft.teams, PID: 10015
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.microsoft.skype.teams.calling.call.CommandInvokerService@7da4267 with Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.microsoft.teams/com.microsoft.skype.teams.calling.call.CommandInvokerService }: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Class java.lang.Object.getClass()' on a null object reference
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4673)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleServiceArgs(Unknown Source:0)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2180)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Class java.lang.Object.getClass()' on a null object reference
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at com.microsoft.skype.teams.calling.call.CommandInvokerService.onMAMStartCommand(Unknown Source:4)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at com.microsoft.intune.mam.client.app.offline.OfflineServiceBehavior.onStartCommand(Unknown Source:10)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at com.microsoft.intune.mam.client.app.MAMService.onStartCommand(Unknown Source:2)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4655)
-04-24 11:22:38.322 10015 10015 E AndroidRuntime: 	... 9 more
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: Process: com.microsoft.teams, PID: 17326
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.microsoft.skype.teams.calling.call.CommandInvokerService@59db197 with Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.microsoft.teams/com.microsoft.skype.teams.calling.call.CommandInvokerService }: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Class java.lang.Object.getClass()' on a null object reference
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4673)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleServiceArgs(Unknown Source:0)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2180)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Class java.lang.Object.getClass()' on a null object reference
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at com.microsoft.skype.teams.calling.call.CommandInvokerService.onMAMStartCommand(Unknown Source:4)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at com.microsoft.intune.mam.client.app.offline.OfflineServiceBehavior.onStartCommand(Unknown Source:10)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at com.microsoft.intune.mam.client.app.MAMService.onStartCommand(Unknown Source:2)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4655)
+05-01 18:42:30.445 17326 17326 E AndroidRuntime: 	... 9 more
 com.microsoft.skype.teams.services.postmessage.PostMessageServiceQueueJobP
+--------- beginning of crash
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: Process: com.microsoft.teams, PID: 17625
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{712ef8c u0 com.microsoft.teams/com.microsoft.skype.teams.services.postmessage.PostMessageServiceQueueJobP}
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:43:36.614 17625 17625 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.microsoft.skype.teams.services.authorization.SkypeTokenRefreshJobM
 --------- beginning of crash
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: FATAL EXCEPTION: main
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: Process: com.microsoft.teams, PID: 10356
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{17cacb2 u0 com.microsoft.teams/com.microsoft.skype.teams.services.postmessage.PostMessageServiceQueueJobP}
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-24 11:23:28.618 10356 10356 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: Process: com.microsoft.teams, PID: 17905
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{3103f65 u0 com.microsoft.teams/com.microsoft.skype.teams.services.authorization.SkypeTokenRefreshJobM}
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:44:12.899 17905 17905 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 androidx.sharetarget.ChooserTargetServiceCompat
-com.microsoft.skype.teams.calling.telecom.TelecomConnectionService
 --------- beginning of crash
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: FATAL EXCEPTION: main
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: Process: com.microsoft.teams, PID: 10649
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.microsoft.skype.teams.calling.telecom.TelecomConnectionService@44dd581 with Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.microsoft.teams/com.microsoft.skype.teams.calling.telecom.TelecomConnectionService }: java.lang.NullPointerException: Attempt to invoke interface method 'java.lang.Object dagger.Lazy.get()' on a null object reference
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4673)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleServiceArgs(Unknown Source:0)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2180)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'java.lang.Object dagger.Lazy.get()' on a null object reference
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at com.microsoft.skype.teams.calling.telecom.TelecomConnectionService.getLogger(Unknown Source:2)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at com.microsoft.skype.teams.calling.telecom.TelecomConnectionService.onStartCommand(Unknown Source:1)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4655)
-04-24 11:23:59.383 10649 10649 E AndroidRuntime: 	... 9 more
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: Process: com.microsoft.teams, PID: 18154
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{6abee46 u0 com.microsoft.teams/androidx.sharetarget.ChooserTargetServiceCompat}
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:44:49.666 18154 18154 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.microsoft.skype.teams.calling.telecom.TelecomConnectionService
 com.google.android.gms.auth.api.signin.RevocationBoundService
 --------- beginning of crash
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: FATAL EXCEPTION: main
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: Process: com.microsoft.teams, PID: 11260
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{95ac675 u0 com.microsoft.teams/androidx.sharetarget.ChooserTargetServiceCompat}
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-24 11:24:31.189 11260 11260 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: Process: com.microsoft.teams, PID: 18554
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{24d823a u0 com.microsoft.teams/com.google.android.gms.auth.api.signin.RevocationBoundService}
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:46:03.091 18554 18554 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService
+--------- beginning of crash
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: Process: com.microsoft.teams, PID: 18752
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{375caaa u0 com.microsoft.teams/com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService}
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:46:39.832 18752 18752 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.microsoft.tokenshare.TokenSharingService
 --------- beginning of crash
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: FATAL EXCEPTION: main
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: Process: com.microsoft.teams, PID: 11496
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{fff8ce u0 com.microsoft.teams/com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService}
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-24 11:25:09.841 11496 11496 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: Process: com.microsoft.teams, PID: 18954
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{d173161 u0 com.microsoft.teams/com.microsoft.tokenshare.TokenSharingService}
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:47:16.162 18954 18954 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

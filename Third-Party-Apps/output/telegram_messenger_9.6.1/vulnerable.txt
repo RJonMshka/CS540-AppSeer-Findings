@@ -1,4 +1,4 @@
-org.telegram.messenger.beta
+org.telegram.messenger
 org.telegram.messenger.DefaultIcon
 org.telegram.messenger.GcmPushListenerService
 org.telegram.messenger.GoogleVoiceClientService

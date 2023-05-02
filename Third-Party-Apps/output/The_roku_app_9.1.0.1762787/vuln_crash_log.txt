@@ -1,1 +1,16 @@
 com.roku.remote.authenticator.service.RokuAuthenticationService
+--------- beginning of crash
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: FATAL EXCEPTION: UI
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: Process: com.roku.remote, PID: 14213
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{ac57370 u0 com.roku.remote/.authenticator.service.RokuAuthenticationService}
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 20:20:56.061 14213 14213 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

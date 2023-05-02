@@ -1,56 +1,86 @@
 com.burnweb.rnsendintent.RNSendIntentModule
 --------- beginning of crash
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: FATAL EXCEPTION: main
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: Process: com.amazon.mShop.android.shopping, PID: 23272
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.burnweb.rnsendintent.RNSendIntentModule: java.lang.InstantiationException: java.lang.Class<com.burnweb.rnsendintent.RNSendIntentModule> has no zero argument constructor
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4498)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2161)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: Caused by: java.lang.InstantiationException: java.lang.Class<com.burnweb.rnsendintent.RNSendIntentModule> has no zero argument constructor
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateService(AppComponentFactory.java:129)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateService(CoreComponentFactory.java:75)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4467)
-04-22 20:30:57.489 23272 23272 E AndroidRuntime: 	... 9 more
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: Process: com.amazon.mShop.android.shopping, PID: 11962
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.burnweb.rnsendintent.RNSendIntentModule: java.lang.InstantiationException: java.lang.Class<com.burnweb.rnsendintent.RNSendIntentModule> has no zero argument constructor
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4498)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2161)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: Caused by: java.lang.InstantiationException: java.lang.Class<com.burnweb.rnsendintent.RNSendIntentModule> has no zero argument constructor
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateService(AppComponentFactory.java:129)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateService(CoreComponentFactory.java:75)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4467)
+05-01 14:03:27.611 11962 11962 E AndroidRuntime: 	... 9 more
 com.amazon.mShop.kuber.service.PrefetchService
-com.amazon.alexa.system.UserInactivityAuthority.UserInactivityReportingJob
 --------- beginning of crash
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: FATAL EXCEPTION: main
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: Process: com.amazon.mShop.android.shopping, PID: 24117
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{7c73dee u0 com.amazon.mShop.android.shopping/com.amazon.mShop.kuber.service.PrefetchService}
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-22 20:31:46.657 24117 24117 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: Process: com.amazon.mShop.android.shopping, PID: 12719
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{b8b2c1 u0 com.amazon.mShop.android.shopping/com.amazon.mShop.kuber.service.PrefetchService}
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 14:04:31.860 12719 12719 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+com.amazon.alexa.system.UserInactivityAuthority.UserInactivityReportingJob
 com.amazon.identity.auth.device.authorization.AmazonAuthorizationService1stParty
+--------- beginning of crash
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: Process: com.amazon.mShop.android.shopping, PID: 13269
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{916b64c u0 com.amazon.mShop.android.shopping/com.amazon.identity.auth.device.authorization.AmazonAuthorizationService1stParty}
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 14:05:49.759 13269 13269 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.amazon.client.metrics.nexus.UploadJobService
 --------- beginning of crash
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: FATAL EXCEPTION: main
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: Process: com.amazon.mShop.android.shopping, PID: 24922
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{2a4632c u0 com.amazon.mShop.android.shopping/com.amazon.identity.auth.device.authorization.AmazonAuthorizationService1stParty}
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-22 20:32:27.160 24922 24922 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: Process: com.amazon.mShop.android.shopping, PID: 13969
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{77403da u0 com.amazon.mShop.android.shopping/com.amazon.client.metrics.nexus.UploadJobService}
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 14:06:38.442 13969 13969 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.google.android.gms.auth.api.signin.RevocationBoundService
+--------- beginning of crash
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: Process: com.amazon.mShop.android.shopping, PID: 14518
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{c353f6d u0 com.amazon.mShop.android.shopping/com.google.android.gms.auth.api.signin.RevocationBoundService}
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 14:07:15.617 14518 14518 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

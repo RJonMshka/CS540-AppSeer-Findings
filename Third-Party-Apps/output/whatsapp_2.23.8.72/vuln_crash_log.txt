@@ -1,20 +1,65 @@
 com.whatsapp.instrumentation.api.InstrumentationService
+--------- beginning of crash
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: Process: com.whatsapp, PID: 18132
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{f29163c u0 com.whatsapp/.instrumentation.api.InstrumentationService}
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:10:41.361 18132 18132 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.whatsapp.accountsync.AccountAuthenticatorService
 --------- beginning of crash
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: Process: com.whatsapp, PID: 14334
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{27a0722 u0 com.whatsapp/.instrumentation.api.InstrumentationService}
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 23:44:55.453 14334 14334 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: Process: com.whatsapp, PID: 18312
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{9d24bf7 u0 com.whatsapp/.accountsync.AccountAuthenticatorService}
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:11:17.616 18312 18312 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.whatsapp.wearos.WearOsListenerService
 com.google.android.gms.auth.api.signin.RevocationBoundService
+--------- beginning of crash
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: Process: com.whatsapp, PID: 18554
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{4f250c8 u0 com.whatsapp/com.google.android.gms.auth.api.signin.RevocationBoundService}
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:12:40.702 18554 18554 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 androidx.sharetarget.ChooserTargetServiceCompat
+--------- beginning of crash
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: Process: com.whatsapp, PID: 18736
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{7dc26a1 u0 com.whatsapp/androidx.sharetarget.ChooserTargetServiceCompat}
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:13:16.935 18736 18736 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

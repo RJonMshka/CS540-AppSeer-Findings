@@ -1,19 +1,32 @@
 com.sec.android.app.sbrowser.custom_tab.CustomTabsConnectionService
 --------- beginning of crash
-04-24 14:44:15.044  7807  7807 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: Process: com.sec.android.app.sbrowser.beta, PID: 18660
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{cd3c510 u0 com.sec.android.app.sbrowser.beta/com.sec.android.app.sbrowser.custom_tab.CustomTabsConnectionService}
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 19:27:58.773 18660 18660 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.sec.android.app.sbrowser.sites.bookmark.wearable_sync.BookmarkWearableService
 --------- beginning of crash
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: FATAL EXCEPTION: main
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: Process: com.sec.android.app.sbrowser.beta, PID: 7455
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{fa86fd0 u0 com.sec.android.app.sbrowser.beta/com.sec.android.app.sbrowser.custom_tab.CustomTabsConnectionService}
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-24 14:44:44.941  7455  7455 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: Process: com.sec.android.app.sbrowser.beta, PID: 19306
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{c2a34f8 u0 com.sec.android.app.sbrowser.beta/com.sec.android.app.sbrowser.sites.bookmark.wearable_sync.BookmarkWearableService}
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 19:28:35.051 19306 19306 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

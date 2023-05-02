@@ -1,3 +1,58 @@
 com.pandora.fordsync.SdlRouterService
+--------- beginning of crash
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: Process: com.smartdevicelink.router, PID: 22129
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.pandora.fordsync.SdlRouterService: java.lang.IllegalArgumentException: com.pandora.android: Targeting S+ (version 31 and above) requires that one of FLAG_IMMUTABLE or FLAG_MUTABLE be specified when creating a PendingIntent.
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: Strongly consider using FLAG_IMMUTABLE, only use FLAG_MUTABLE if some functionality depends on the PendingIntent being mutable, e.g. if it needs to be used with inline replies or bubbles.
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4498)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2161)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: com.pandora.android: Targeting S+ (version 31 and above) requires that one of FLAG_IMMUTABLE or FLAG_MUTABLE be specified when creating a PendingIntent.
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: Strongly consider using FLAG_IMMUTABLE, only use FLAG_MUTABLE if some functionality depends on the PendingIntent being mutable, e.g. if it needs to be used with inline replies or bubbles.
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.PendingIntent.checkFlags(PendingIntent.java:401)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.PendingIntent.getActivityAsUser(PendingIntent.java:484)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.PendingIntent.getActivity(PendingIntent.java:470)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.PendingIntent.getActivity(PendingIntent.java:434)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at com.smartdevicelink.transport.SdlRouterService.enterForeground(SdlRouterService.java:188)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at com.smartdevicelink.transport.SdlRouterService.onCreate(SdlRouterService.java:21)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4485)
+05-01 18:53:28.400 22129 22129 E AndroidRuntime: 	... 9 more
 com.pandora.android.media.PandoraBrowserService
+--------- beginning of crash
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: Process: com.pandora.android, PID: 21704
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{9452b28 u0 com.pandora.android/.media.PandoraBrowserService}
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:54:34.062 21704 21704 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.google.android.gms.auth.api.signin.RevocationBoundService
+--------- beginning of crash
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: Process: com.pandora.android, PID: 22618
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{12e959e u0 com.pandora.android/com.google.android.gms.auth.api.signin.RevocationBoundService}
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:55:10.365 22618 22618 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

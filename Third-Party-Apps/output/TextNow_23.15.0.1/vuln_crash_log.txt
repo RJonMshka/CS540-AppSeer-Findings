@@ -1,57 +1,87 @@
 com.enflick.android.TextNow.HeadlessSmsSendService
 --------- beginning of crash
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: Process: com.enflick.android.TextNow, PID: 11122
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{e13bff3 u0 com.enflick.android.TextNow/.HeadlessSmsSendService}
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 23:35:05.193 11122 11122 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: Process: com.enflick.android.TextNow, PID: 12254
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{4fb4002 u0 com.enflick.android.TextNow/.HeadlessSmsSendService}
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 20:17:02.950 12254 12254 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 org.jitsi.meet.sdk.ConnectionService
 --------- beginning of crash
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: Process: com.enflick.android.TextNow, PID: 11373
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: java.lang.RuntimeException: Unable to create service org.jitsi.meet.sdk.ConnectionService: java.lang.ClassNotFoundException: Didn't find class "org.jitsi.meet.sdk.ConnectionService" on path: DexPathList[[zip file "/data/app/~~8qvOxlYPjo9VFf7RXCuJ4Q==/com.enflick.android.TextNow-UMtXGZxVGKIdc4EZK-NzOA==/base.apk"],nativeLibraryDirectories=[/data/app/~~8qvOxlYPjo9VFf7RXCuJ4Q==/com.enflick.android.TextNow-UMtXGZxVGKIdc4EZK-NzOA==/lib/x86_64, /data/app/~~8qvOxlYPjo9VFf7RXCuJ4Q==/com.enflick.android.TextNow-UMtXGZxVGKIdc4EZK-NzOA==/base.apk!/lib/x86_64, /system/lib64, /system_ext/lib64]]
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4498)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2161)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "org.jitsi.meet.sdk.ConnectionService" on path: DexPathList[[zip file "/data/app/~~8qvOxlYPjo9VFf7RXCuJ4Q==/com.enflick.android.TextNow-UMtXGZxVGKIdc4EZK-NzOA==/base.apk"],nativeLibraryDirectories=[/data/app/~~8qvOxlYPjo9VFf7RXCuJ4Q==/com.enflick.android.TextNow-UMtXGZxVGKIdc4EZK-NzOA==/lib/x86_64, /data/app/~~8qvOxlYPjo9VFf7RXCuJ4Q==/com.enflick.android.TextNow-UMtXGZxVGKIdc4EZK-NzOA==/base.apk!/lib/x86_64, /system/lib64, /system_ext/lib64]]
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateService(AppComponentFactory.java:129)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateService(CoreComponentFactory.java:1)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4467)
-04-23 23:35:22.766 11373 11373 E AndroidRuntime: 	... 9 more
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: Process: com.enflick.android.TextNow, PID: 12598
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: java.lang.RuntimeException: Unable to create service org.jitsi.meet.sdk.ConnectionService: java.lang.ClassNotFoundException: Didn't find class "org.jitsi.meet.sdk.ConnectionService" on path: DexPathList[[zip file "/data/app/~~qo9tS5nWDSettSnSl0dV1g==/com.enflick.android.TextNow-JBIMCxDtBvr_JAjoZYAiNg==/base.apk"],nativeLibraryDirectories=[/data/app/~~qo9tS5nWDSettSnSl0dV1g==/com.enflick.android.TextNow-JBIMCxDtBvr_JAjoZYAiNg==/lib/arm64, /data/app/~~qo9tS5nWDSettSnSl0dV1g==/com.enflick.android.TextNow-JBIMCxDtBvr_JAjoZYAiNg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4498)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2161)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "org.jitsi.meet.sdk.ConnectionService" on path: DexPathList[[zip file "/data/app/~~qo9tS5nWDSettSnSl0dV1g==/com.enflick.android.TextNow-JBIMCxDtBvr_JAjoZYAiNg==/base.apk"],nativeLibraryDirectories=[/data/app/~~qo9tS5nWDSettSnSl0dV1g==/com.enflick.android.TextNow-JBIMCxDtBvr_JAjoZYAiNg==/lib/arm64, /data/app/~~qo9tS5nWDSettSnSl0dV1g==/com.enflick.android.TextNow-JBIMCxDtBvr_JAjoZYAiNg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateService(AppComponentFactory.java:129)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateService(CoreComponentFactory.java:1)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4467)
+05-01 20:17:39.156 12598 12598 E AndroidRuntime: 	... 9 more
 com.enflick.android.TextNow.sync.TNAuthenticatorService
+--------- beginning of crash
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: Process: com.enflick.android.TextNow, PID: 13230
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{a83e97b u0 com.enflick.android.TextNow/.sync.TNAuthenticatorService}
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 20:18:45.354 13230 13230 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.google.android.gms.auth.api.signin.RevocationBoundService
 --------- beginning of crash
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: Process: com.enflick.android.TextNow, PID: 11680
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{88321c u0 com.enflick.android.TextNow/.sync.TNAuthenticatorService}
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 23:36:13.418 11680 11680 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: Process: com.enflick.android.TextNow, PID: 13642
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{ddad920 u0 com.enflick.android.TextNow/com.google.android.gms.auth.api.signin.RevocationBoundService}
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 20:19:21.745 13642 13642 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 androidx.sharetarget.ChooserTargetServiceCompat
+--------- beginning of crash
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: Process: com.enflick.android.TextNow, PID: 13916
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{785189a u0 com.enflick.android.TextNow/androidx.sharetarget.ChooserTargetServiceCompat}
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 20:19:58.145 13916 13916 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

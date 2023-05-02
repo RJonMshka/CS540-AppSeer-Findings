@@ -1,17 +1,32 @@
 com.android.settings.wifi.tether.TetherService
 --------- beginning of crash
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: FATAL EXCEPTION: main
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: Process: com.android.settings, PID: 9515
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{980099 u0 com.android.settings/.wifi.tether.TetherService}
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-22 15:02:57.737  9515  9515 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: Process: com.android.settings, PID: 23286
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{eecafc3 u0 com.android.settings/.wifi.tether.TetherService}
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:29:33.423 23286 23286 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.android.settings.SettingsDumpService
+--------- beginning of crash
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: Process: com.android.settings, PID: 23578
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{29150a u0 com.android.settings/.SettingsDumpService}
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:30:39.598 23578 23578 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

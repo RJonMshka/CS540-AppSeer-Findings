@@ -1,33 +1,48 @@
 com.google.android.calendar.timely.CalendarOobeService
+--------- beginning of crash
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: Process: com.google.android.calendar, PID: 22675
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{6b44a2a u0 com.google.android.calendar/.timely.CalendarOobeService}
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:28:05.142 22675 22675 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.google.android.calendar.alerts.RemindersListenerService
 --------- beginning of crash
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: FATAL EXCEPTION: main
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: Process: com.google.android.calendar, PID: 13711
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{9ef892 u0 com.google.android.calendar/.alerts.RemindersListenerService}
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-22 15:44:55.006 13711 13711 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: Process: com.google.android.calendar, PID: 22826
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{1bf9fb2 u0 com.google.android.calendar/.alerts.RemindersListenerService}
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:28:11.395 22826 22826 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.google.assistant.appactions.widgets.pinappwidget.PinAppWidgetService
 --------- beginning of crash
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: FATAL EXCEPTION: main
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: Process: com.google.android.calendar, PID: 13882
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{37d1673 u0 com.google.android.calendar/.timely.CalendarOobeService}
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-22 15:45:25.095 13882 13882 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: Process: com.google.android.calendar, PID: 23012
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{8e85106 u0 com.google.android.calendar/com.google.assistant.appactions.widgets.pinappwidget.PinAppWidgetService}
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 21:29:17.645 23012 23012 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

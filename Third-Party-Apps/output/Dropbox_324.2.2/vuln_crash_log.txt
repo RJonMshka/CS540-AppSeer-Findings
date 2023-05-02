@@ -1,33 +1,48 @@
 com.dropbox.android.cloudmessaging.DbxCloudMessagingService
 --------- beginning of crash
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: Process: com.dropbox.android, PID: 21300
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{f852a25 u0 com.dropbox.android/.cloudmessaging.DbxCloudMessagingService}
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 21:29:36.844 21300 21300 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: Process: com.dropbox.android, PID: 5939
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{64840b6 u0 com.dropbox.android/.cloudmessaging.DbxCloudMessagingService}
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:13:02.597  5939  5939 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.dropbox.android.service.AuthenticationService
+--------- beginning of crash
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: Process: com.dropbox.android, PID: 6180
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{ef93f87 u0 com.dropbox.android/.service.AuthenticationService}
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:14:08.309  6180  6180 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.google.android.gms.auth.api.signin.RevocationBoundService
 --------- beginning of crash
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: Process: com.dropbox.android, PID: 21509
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{288cee u0 com.dropbox.android/.service.AuthenticationService}
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 21:30:21.956 21509 21509 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: Process: com.dropbox.android, PID: 7135
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{3b76048 u0 com.dropbox.android/com.google.android.gms.auth.api.signin.RevocationBoundService}
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:14:56.794  7135  7135 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)

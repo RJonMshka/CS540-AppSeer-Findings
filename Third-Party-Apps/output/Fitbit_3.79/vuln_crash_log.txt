@@ -1,68 +1,128 @@
 com.fitbit.dncs.observers.AllAppNotificationListenerService
+--------- beginning of crash
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 9070
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{4228f3f u0 com.fitbit.FitbitMobile/com.fitbit.dncs.observers.AllAppNotificationListenerService}
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:23:41.451  9070  9070 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.fitbit.serverinteraction.SsoService
 --------- beginning of crash
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 5282
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{4c2a0ed u0 com.fitbit.FitbitMobile/com.fitbit.dncs.observers.AllAppNotificationListenerService}
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 22:07:46.846  5282  5282 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 9316
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{6d1db52 u0 com.fitbit.FitbitMobile/com.fitbit.serverinteraction.SsoService}
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:24:17.707  9316  9316 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.fitbit.fcm.FCMMessageListenerService
 --------- beginning of crash
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 5576
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{dd0aff7 u0 com.fitbit.FitbitMobile/com.fitbit.fcm.FCMMessageListenerService}
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 22:07:58.955  5576  5576 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 9574
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{59d6777 u0 com.fitbit.FitbitMobile/com.fitbit.fcm.FCMMessageListenerService}
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:24:26.627  9574  9574 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.google.android.gms.auth.api.signin.RevocationBoundService
+--------- beginning of crash
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 9817
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{24f6b9f u0 com.fitbit.FitbitMobile/com.google.android.gms.auth.api.signin.RevocationBoundService}
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:25:32.866  9817  9817 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.fitbit.cronus.impl.wear.WearService
 --------- beginning of crash
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 5835
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{e1ccefd u0 com.fitbit.FitbitMobile/com.google.android.gms.auth.api.signin.RevocationBoundService}
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 22:08:49.795  5835  5835 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 10082
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{d63a2e1 u0 com.fitbit.FitbitMobile/com.fitbit.cronus.impl.wear.WearService}
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:26:09.132 10082 10082 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.fitbit.gpay.GPayMseService
+--------- beginning of crash
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 10354
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{2583d0b u0 com.fitbit.FitbitMobile/com.fitbit.gpay.GPayMseService}
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:26:45.460 10354 10354 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 com.fitbit.navigation.NavigationConsumerService
+--------- beginning of crash
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 10677
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{98d61b u0 com.fitbit.FitbitMobile/com.fitbit.navigation.NavigationConsumerService}
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:27:32.413 10677 10677 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 androidx.health.platform.client.impl.sdkservice.HealthDataSdkService
 --------- beginning of crash
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: FATAL EXCEPTION: main
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 6307
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{4f75288 u0 com.fitbit.FitbitMobile/com.fitbit.gpay.GPayMseService}
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
-04-23 22:09:50.696  6307  6307 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: FATAL EXCEPTION: main
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: Process: com.fitbit.FitbitMobile, PID: 10887
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: android.app.RemoteServiceException$ForegroundServiceDidNotStartInTimeException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{f15ca37 u0 com.fitbit.FitbitMobile/androidx.health.platform.client.impl.sdkservice.HealthDataSdkService}
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at android.app.ActivityThread.generateForegroundServiceDidNotStartInTimeException(ActivityThread.java:2005)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:1976)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(Unknown Source:0)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2241)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+05-01 18:28:08.633 10887 10887 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
